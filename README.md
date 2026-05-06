@@ -54,6 +54,12 @@ MEDLY_DEMO_PASSWORD="..." node scripts/run_eval.js --suite scenarios.comprehensi
 MEDLY_DEMO_PASSWORD="..." node scripts/run_eval.js --suite scenarios.comprehensive.json --run-label comprehensive --offset 30 --limit 30 --append
 ```
 
+For the full comprehensive run, omit screenshots to keep artifacts lightweight:
+
+```bash
+MEDLY_DEMO_PASSWORD="..." node scripts/run_eval.js --suite scenarios.comprehensive.json --run-label comprehensive --resume --no-screenshots
+```
+
 Useful filters:
 
 ```bash

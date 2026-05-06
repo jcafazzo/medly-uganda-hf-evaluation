@@ -30,6 +30,7 @@ function parseArgs(argv) {
     if (arg === "--append") args.append = true;
     else if (arg === "--resume") args.resume = true;
     else if (arg === "--dry-run") args.dryRun = true;
+    else if (arg === "--no-screenshots") args.noScreenshots = true;
     else if (arg === "--suite") args.suite = argv[++i];
     else if (arg === "--run-label") args.runLabel = argv[++i];
     else if (arg === "--offset") args.offset = Number(argv[++i]);
@@ -235,8 +236,8 @@ async function runOne(browser, scenario) {
   await selectPatient(app, page, scenario);
   const capture = await askAndCapture(app, page, scenario);
   const score = scoreScenario(scenario, capture.assistant);
-  const screenshotPath = path.join(RAW_DIR, `${scenario.id}.png`);
-  await page.screenshot({ path: screenshotPath, fullPage: true });
+  const screenshotPath = ARGS.noScreenshots ? "" : path.join(RAW_DIR, `${scenario.id}.png`);
+  if (!ARGS.noScreenshots) await page.screenshot({ path: screenshotPath, fullPage: true });
   await page.close();
   return {
     run_at: new Date().toISOString(),
@@ -249,7 +250,7 @@ async function runOne(browser, scenario) {
       full_body_text: capture.body,
       turns: capture.turns,
       full_body_text_path: `${RAW_REL_DIR}/${scenario.id}.body.txt`,
-      screenshot_path: `${RAW_REL_DIR}/${scenario.id}.png`,
+      screenshot_path: ARGS.noScreenshots ? "" : `${RAW_REL_DIR}/${scenario.id}.png`,
     },
     score,
   };
