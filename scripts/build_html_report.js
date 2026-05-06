@@ -38,6 +38,7 @@ const comprehensiveSuite = fs.existsSync(comprehensivePath)
   : [];
 const comprehensivePersonas = new Set(comprehensiveSuite.map((scenario) => scenario.persona_id).filter(Boolean)).size;
 const comprehensiveCritical = comprehensiveSuite.filter((scenario) => scenario.riskClass === "critical").length;
+const comprehensiveTurns = comprehensiveSuite.reduce((sum, scenario) => sum + (Array.isArray(scenario.turns) && scenario.turns.length ? scenario.turns.length : 1), 0);
 const comprehensiveCategories = [...comprehensiveSuite.reduce((counts, scenario) => {
   counts.set(scenario.category || "uncategorized", (counts.get(scenario.category || "uncategorized") || 0) + 1);
   return counts;
@@ -105,6 +106,25 @@ const prohibitedRows = (result) => result.score.must_not.map((item) => ({
   passed: item.passed,
   evidence: item.passed ? "" : evidenceSnippet(result.capture.assistant_text, item.pattern),
 }));
+const turnRows = (result) => {
+  if (Array.isArray(result.capture.turns) && result.capture.turns.length) {
+    return result.capture.turns.map((turn, index) => ({
+      prompt: turn.prompt,
+      assistant: turn.assistant_text || "",
+      label: `Turn ${index + 1}`,
+      elapsed: turn.elapsed_ms,
+    }));
+  }
+  return [{
+    prompt: result.scenario.prompt,
+    assistant: result.capture.assistant_text,
+    label: "Turn 1",
+    elapsed: result.capture.elapsed_ms,
+  }];
+};
+const transcriptHtml = (result) => turnRows(result).map((turn) => `
+            <div class="bubble clinician"><strong>${escapeHtml(turn.label)} · Clinician</strong>${escapeHtml(turn.prompt)}</div>
+            <div class="bubble bot"><strong>${escapeHtml(turn.label)} · Bot${turn.elapsed ? ` · ${(turn.elapsed / 1000).toFixed(1)}s` : ""}</strong>${escapeHtml(compactText(turn.assistant, 900))}</div>`).join("");
 
 function parseArgs(argv) {
   const args = {};
@@ -858,14 +878,14 @@ return `<!doctype html>
       <h2 class="section-title">Comprehensive suite ready.</h2>
       <p class="section-copy">A larger test suite has been generated for the next live run. It keeps the same safety-first scoring model, but expands the personas, settings, and failure modes substantially.</p>
       <div class="suite-strip">
-        <div class="suite-tile"><strong>${comprehensiveSuite.length}</strong><span>Total scenarios defined</span></div>
+        <div class="suite-tile"><strong>${comprehensiveSuite.length}</strong><span>Total multi-turn scenarios defined</span></div>
         <div class="suite-tile"><strong>${comprehensivePersonas}</strong><span>Distinct clinician personas and settings</span></div>
-        <div class="suite-tile"><strong>${comprehensiveCritical}</strong><span>Critical safety scenarios</span></div>
+        <div class="suite-tile"><strong>${comprehensiveTurns}</strong><span>Clinician turns across the suite</span></div>
       </div>
       <ul class="category-list">
         ${comprehensiveCategories.map(([category, count]) => `<li><span>${escapeHtml(titleCase(category))}</span><b>${count}</b></li>`).join("")}
       </ul>
-      <p class="section-copy" style="margin-top: 24px;">Run in chunks with <code>node scripts/run_eval.js --suite scenarios.comprehensive.json --run-label comprehensive --offset 0 --limit 30</code>. The full live run is expected to take materially longer than the smoke run because each scenario waits for the Streamlit bot response.</p>
+      <p class="section-copy" style="margin-top: 24px;">${comprehensiveCritical} scenarios are critical safety cases. Run in chunks with <code>node scripts/run_eval.js --suite scenarios.comprehensive.json --run-label comprehensive --offset 0 --limit 30</code>. The full live run is expected to take materially longer than the smoke run because each scenario now sends follow-up turns and waits for each Streamlit bot response.</p>
     </div>
   </section>` : ""}
 
@@ -895,7 +915,7 @@ return `<!doctype html>
   <section id="conversations">
     <div class="section-inner">
       <h2 class="section-title">Conversation and scoring evidence.</h2>
-      <p class="section-copy">For each test, the clinician prompt is shown first, followed by the bot answer excerpt. The scoring panels show which parts of the answer contributed to the automated score.</p>
+      <p class="section-copy">For each test, every clinician turn is shown with the bot response that followed it. The scoring panels then show which text across the full conversation contributed to the automated score.</p>
       <div class="conversation-stack">
         ${results.map((r) => `
         <article id="case-${escapeHtml(r.scenario.id)}" class="conversation-card">
@@ -911,11 +931,10 @@ return `<!doctype html>
             </div>
           </div>
           <div class="transcript">
-            <div class="bubble clinician"><strong>Clinician prompt</strong>${escapeHtml(r.scenario.prompt)}</div>
-            <div class="bubble bot"><strong>Bot response excerpt</strong>${escapeHtml(compactText(r.capture.assistant_text))}</div>
+${transcriptHtml(r)}
           </div>
           <details class="transcript-more">
-            <summary>Show full bot response</summary>
+            <summary>Show full scored bot response text</summary>
             <div class="full-answer">${escapeHtml(cleanAssistantText(r.capture.assistant_text))}</div>
           </details>
           <div class="score-explain">

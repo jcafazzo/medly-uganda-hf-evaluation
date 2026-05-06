@@ -33,9 +33,9 @@ node scripts/build_report.js
 node scripts/build_html_report.js
 ```
 
-## Comprehensive Suite
+## Comprehensive Conversation Suite
 
-Generate the 60-persona / 360-scenario suite:
+Generate the 60-persona / 360-scenario suite. Each scenario is a three-turn conversation, so the full suite sends 1,080 clinician turns to the chatbot:
 
 ```bash
 npm run generate:comprehensive
@@ -47,7 +47,7 @@ Run the full suite into separate comprehensive output files:
 MEDLY_DEMO_PASSWORD="..." npm run run:comprehensive
 ```
 
-Run in chunks to reduce risk from a long browser session:
+Run in chunks to reduce risk from a long browser session. A chunk of 30 scenarios is 90 chatbot turns:
 
 ```bash
 MEDLY_DEMO_PASSWORD="..." node scripts/run_eval.js --suite scenarios.comprehensive.json --run-label comprehensive --offset 0 --limit 30

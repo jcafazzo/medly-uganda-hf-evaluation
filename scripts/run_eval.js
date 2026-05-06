@@ -125,7 +125,7 @@ function extractChat(bodyText, prompt) {
   const chatStart = bodyText.indexOf("💬 Chat");
   const sourceStart = bodyText.indexOf("📚 Source", chatStart);
   const chat = bodyText.slice(chatStart >= 0 ? chatStart : 0, sourceStart >= 0 ? sourceStart : bodyText.length).trim();
-  const promptIndex = chat.indexOf(prompt);
+  const promptIndex = chat.lastIndexOf(prompt);
   if (promptIndex === -1) return { chat, assistant: chat };
   let assistant = chat.slice(promptIndex + prompt.length);
   assistant = assistant.replace(/^\\s*smart_toy\\s*/i, "").trim();
@@ -134,13 +134,24 @@ function extractChat(bodyText, prompt) {
   return { chat, assistant };
 }
 
-async function askAndCapture(app, page, scenario) {
+function scenarioTurns(scenario) {
+  if (Array.isArray(scenario.turns) && scenario.turns.length) {
+    return scenario.turns.map((turn, index) => ({
+      id: turn.id || `turn_${index + 1}`,
+      role: turn.role || "clinician",
+      prompt: turn.prompt || turn.text,
+    })).filter((turn) => turn.prompt);
+  }
+  return [{ id: "turn_1", role: "clinician", prompt: scenario.prompt }];
+}
+
+async function askOneTurn(app, page, prompt) {
   const before = await app.locator("body").innerText();
   if (!(await app.locator("textarea").count())) {
     throw new Error(`No textarea found before asking. Body begins: ${before.slice(0, 1000)}`);
   }
   const t0 = Date.now();
-  await app.locator("textarea").fill(scenario.prompt);
+  await app.locator("textarea").fill(prompt);
   await app.getByRole("button", { name: "Send message" }).click();
 
   let last = "";
@@ -152,13 +163,40 @@ async function askAndCapture(app, page, scenario) {
     if (body === last) stable += 1;
     else stable = 0;
     last = body;
-    const hasResponse = body.includes(scenario.prompt) && body.includes("smart_toy");
+    const hasResponse = body.includes(prompt) && body.includes("smart_toy");
     const hasSources = body.includes("Sources (click to view):") || body.includes("Was this response helpful?");
     if (hasResponse && hasSources && stable >= 2) break;
   }
   const elapsedMs = Date.now() - t0;
-  const { chat, assistant } = extractChat(body, scenario.prompt);
+  const { chat, assistant } = extractChat(body, prompt);
   return { before, body, chat, assistant, elapsedMs };
+}
+
+async function askAndCapture(app, page, scenario) {
+  const turns = [];
+  let finalBody = "";
+  let finalChat = "";
+  let elapsedMs = 0;
+  for (const turn of scenarioTurns(scenario)) {
+    const capture = await askOneTurn(app, page, turn.prompt);
+    turns.push({
+      id: turn.id,
+      role: turn.role,
+      prompt: turn.prompt,
+      assistant_text: capture.assistant,
+      elapsed_ms: capture.elapsedMs,
+    });
+    finalBody = capture.body;
+    finalChat = capture.chat;
+    elapsedMs += capture.elapsedMs;
+  }
+  return {
+    body: finalBody,
+    chat: finalChat,
+    assistant: turns.map((turn) => turn.assistant_text).join("\n\n--- next assistant turn ---\n\n"),
+    elapsedMs,
+    turns,
+  };
 }
 
 function regexHit(text, pattern) {
@@ -208,6 +246,7 @@ async function runOne(browser, scenario) {
       assistant_text: capture.assistant,
       chat_text: capture.chat,
       full_body_text: capture.body,
+      turns: capture.turns,
       full_body_text_path: `${RAW_REL_DIR}/${scenario.id}.body.txt`,
       screenshot_path: `${RAW_REL_DIR}/${scenario.id}.png`,
     },
@@ -225,6 +264,7 @@ function errorResult(scenario, error) {
       assistant_text: "",
       chat_text: "",
       full_body_text: "",
+      turns: [],
       full_body_text_path: `${RAW_REL_DIR}/${scenario.id}.body.txt`,
       screenshot_path: "",
     },
@@ -263,6 +303,7 @@ function writeOutputs(results, args) {
     fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.assistant.txt`), r.capture.assistant_text);
     fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.chat.txt`), r.capture.chat_text);
     fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.body.txt`), r.capture.full_body_text);
+    fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.turns.json`), `${JSON.stringify(r.capture.turns || [], null, 2)}\n`);
   }
   const csvLines = [
     "id,riskClass,verdict,score,elapsed_ms,include_passed,include_total,must_not_passed,must_not_total",
