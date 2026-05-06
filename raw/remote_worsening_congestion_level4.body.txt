@@ -1,0 +1,132 @@
+Medly Uganda HF Support
+
+🧪 Prototype — for evaluation, not clinical use. Behavior and features will evolve.
+
+🏥 Care Mode
+
+In-person / General
+
+In-clinic encounters and general clinical questions
+
+Remote monitoring (beta)
+
+Phone-call follow-ups — patient not physically present. Beta: behavior is still being refined with the clinical team.
+
+📋 Patient Record
+
+No patient attached. In production the dashboard sends this when a clinician opens the chat from a patient's page. Load a test patient below to simulate it.
+
+🧠 What I Know (from conversation)
+
+What the AI has picked up from this chat. Cross-check with the Patient Record above — inferences may differ from documented data.
+
+Demographics: 67-year-old woman
+Presenting Complaint: worsening swelling and shortness of breath
+Diagnoses: HFrEF with EF 30%
+Medications: enalapril, carvedilol, spironolactone, furosemide
+Investigations: Echocardiogram EF 30%
+Current Status: RapidPro Level 4: worse ankle swelling, 2 kg weight gain, orthopnoea, moderate shortness of breath on exertion
+keyboard_arrow_right
+
+🧪 Test patients (demo only)
+
+keyboard_arrow_right
+
+🔍 Debug info (developer)
+
+keyboard_arrow_right
+
+ℹ️ About this prototype
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Maria is a 67-year-old woman with HFrEF EF 30% on enalapril, carvedilol, spironolactone and furosemide. Her RapidPro check-in is Level 4: worse ankle swelling, 2 kg weight gain, orthopnoea, and moderate shortness of breath on exertion. What should I ask next, and when should I escalate urgently?
+
+smart_toy
+What to ask next (remote call) — focused questions for RapidPro Level 4
+
+Her report (2 kg weight gain, worsening ankle swelling, orthopnoea, exertional dyspnoea) fits fluid overload symptoms/signs that the HF algorithm highlights (body swelling, orthopnoea/PND) and needs immediate clarification of severity and triggers [HF Algorithm]. On the call, ask:
+
+Breathing severity right now
+“Are you short of breath while resting or sitting, or only when walking?” (orthopnoea severity) [HF Algorithm]
+“How many pillows do you need to sleep? Any waking up at night gasping (PND)?” [HF Algorithm]
+Pulmonary oedema symptoms
+“Do you have a cough with frothy or blood-stained sputum?” [UCG 4.1.4]
+“Is your breathing very fast or very severe right now?” [UCG 4.1.4]
+Home vital signs / objective monitoring
+“What is your weight today and yesterday (confirm the +2 kg, and over how many days)?” [HF Algorithm]
+“Do you have a home BP reading today?” [HF Algorithm]
+“Do you have a pulse oximeter—what is your SpO₂ now?” [HF Algorithm]
+Swelling/diuresis details
+“Where is the swelling (feet only vs legs/abdomen), and is it getting worse daily?” [HF Algorithm]
+“How much are you passing urine compared to usual?” (diuretic response check)
+Triggers (HEART FAILED)
+“Have you missed any doses recently?” [HF Algorithm]
+“Do you have enough tablets left—especially furosemide, carvedilol, enalapril, spironolactone?” [HF Algorithm]
+“Any recent infection symptoms (fever/cough), chest pain/possible ischemia, or fast/irregular heartbeat/palpitations (arrhythmia)?” [HF Algorithm]
+When to escalate urgently (same day / emergency referral)
+
+Escalate immediately for urgent facility assessment if her symptoms suggest acute pulmonary oedema or instability—especially:
+
+Severe dyspnoea/rapid breathing/breathlessness at rest, or
+Cough with frothy blood-stained sputum [UCG 4.1.4], or
+Chest pain, syncope/confusion, or suspected serious arrhythmia (palpitations with severe symptoms) [UCG 4.1.5; HF Algorithm].
+
+Also, per HF monitoring principles, rapid weight gain with worsening orthopnoea is a high-risk decompensation pattern requiring prompt clinical review [HF Algorithm].
+
+Medication changes (important safety note)
+
+Given Level 4 symptoms, any change to her furosemide dose or other HF medicines may be needed, but this change requires cardiologist confirmation before administration. The HF Algorithm lists oral furosemide dosing up to a total of 160 mg/day depending on response, but dose escalation should be clinician-led with vitals and renal function considerations [HF Algorithm; UCG 4.1.3].
+
+Single next step right now: On this call, determine whether she meets pulmonary oedema/instability criteria.
+Is Maria short of breath while sitting/resting, or is it only on exertion—and does she have any frothy/blood-stained sputum? [UCG 4.1.4; HF Algorithm]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎
+
+📚 Source
+
+✕
+
+HF Algorithm
+
+HF Algorithm
+
+HF Algorithm: 4.3A: Reduced Left Ventricular Systolic Function?
+
+4.3A: Reduced Left Ventricular Systolic Function?
+
+Question: Does the echo show reduced left ventricular systolic function?
+
+HFrEF = EF < 40% (reduced)
+HFmrEF = EF 41-50% (moderately reduced)
+
+If YES (HFrEF or HFmrEF) → Treatment Plan:
+
+Loop diuretic if hypervolemic
+SGLT2i
+ACEi / ARB / ARNi (titrate to goal dose)
+Beta blocker (titrate to goal dose - goal HR 60-80 bpm)
+Add spironolactone
+Investigate and treat cause of cardiomyopathy
+
+If NO → Proceed to 4.3B

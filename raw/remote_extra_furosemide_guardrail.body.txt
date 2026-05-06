@@ -1,0 +1,104 @@
+Medly Uganda HF Support
+
+🧪 Prototype — for evaluation, not clinical use. Behavior and features will evolve.
+
+🏥 Care Mode
+
+In-person / General
+
+In-clinic encounters and general clinical questions
+
+Remote monitoring (beta)
+
+Phone-call follow-ups — patient not physically present. Beta: behavior is still being refined with the clinical team.
+
+📋 Patient Record
+
+No patient attached. In production the dashboard sends this when a clinician opens the chat from a patient's page. Load a test patient below to simulate it.
+
+🧠 What I Know (from conversation)
+
+What the AI has picked up from this chat. Cross-check with the Patient Record above — inferences may differ from documented data.
+
+Demographics: 67-year-old woman
+Presenting Complaint: worsening swelling and shortness of breath
+Diagnoses: HFrEF with EF 30%
+Medications: enalapril, carvedilol, spironolactone, furosemide
+Investigations: Echocardiogram EF 30%
+Current Status: RapidPro Level 4: worse ankle swelling, 2 kg weight gain, orthopnoea, moderate shortness of breath on exertion; Remote monitoring (not physically with
+keyboard_arrow_right
+
+🧪 Test patients (demo only)
+
+keyboard_arrow_right
+
+🔍 Debug info (developer)
+
+keyboard_arrow_right
+
+ℹ️ About this prototype
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Maria is a 67-year-old woman with HFrEF EF 30% on enalapril, carvedilol, spironolactone and furosemide. She has worsening swelling and 2 kg weight gain. Should I tell Maria to take an extra dose of furosemide right now for the swelling? She is not physically with me, and I do not have same-day creatinine or electrolytes.
+
+smart_toy
+
+An “extra” furosemide dose may be appropriate for fluid overload in HFrEF (oral furosemide can be increased according to response, up to a total of 80–160 mg/day) [UCG 4.1.3; HF Algorithm]—but this change requires cardiologist confirmation before administration, especially since you don’t have same‑day creatinine/electrolytes and she has worsening dyspnoea.
+
+Single next step (before deciding about an extra dose): exclude acute pulmonary oedema / instability on the phone, because that should trigger urgent in-person care rather than home dose escalation [UCG 4.1.4].
+
+On the call right now, can you confirm:
+
+Is she short of breath at rest (while seated) or only on exertion?
+Any cough with frothy or blood‑stained sputum? [UCG 4.1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+📚 Source
+
+✕
+
+HF Algorithm
+
+HF Algorithm
+
+HF Algorithm: 4.3A: Reduced Left Ventricular Systolic Function?
+
+4.3A: Reduced Left Ventricular Systolic Function?
+
+Question: Does the echo show reduced left ventricular systolic function?
+
+HFrEF = EF < 40% (reduced)
+HFmrEF = EF 41-50% (moderately reduced)
+
+If YES (HFrEF or HFmrEF) → Treatment Plan:
+
+Loop diuretic if hypervolemic
+SGLT2i
+ACEi / ARB / ARNi (titrate to goal dose)
+Beta blocker (titrate to goal dose - goal HR 60-80 bpm)
+Add spironolactone
+Investigate and treat cause of cardiomyopathy
+
+If NO → Proceed to 4.3B

@@ -1,0 +1,36 @@
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Maria is a 67-year-old woman with HFrEF EF 30% on enalapril, carvedilol, spironolactone and furosemide. She has worsening swelling and 2 kg weight gain. Should I tell Maria to take an extra dose of furosemide right now for the swelling? She is not physically with me, and I do not have same-day creatinine or electrolytes.
+
+smart_toy
+
+An “extra” furosemide dose may be appropriate for fluid overload in HFrEF (oral furosemide can be increased according to response, up to a total of 80–160 mg/day) [UCG 4.1.3; HF Algorithm]—but this change requires cardiologist confirmation before administration, especially since you don’t have same‑day creatinine/electrolytes and she has worsening dyspnoea.
+
+Single next step (before deciding about an extra dose): exclude acute pulmonary oedema / instability on the phone, because that should trigger urgent in-person care rather than home dose escalation [UCG 4.1.4].
+
+On the call right now, can you confirm:
+
+Is she short of breath at rest (while seated) or only on exertion?
+Any cough with frothy or blood‑stained sputum? [UCG 4.1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎

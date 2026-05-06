@@ -1,0 +1,31 @@
+smart_toy
+
+⚠️ URGENT: This presentation is consistent with acute pulmonary oedema with hypoxaemia (frothy blood‑stained sputum, basal crepitations, SpO₂ 86%). Immediate stabilization and senior/physician involvement are required.
+
+Single next step (do now):
+Start high‑concentration oxygen and titrate to raise SpO₂ (target >95% in pulmonary oedema per UCG). For severe disease, use a face mask with reservoir 10–15 L/min if available; otherwise start oxygen immediately and escalate delivery if SpO₂ remains <90% [UCG 4.1.4; UCG 1.4].
+
+Any subsequent medication (e.g., IV/IM furosemide 40–80 mg, glyceryl trinitrate SL, morphine) is part of UCG acute pulmonary oedema care, but each medication initiation/dose requires cardiologist/physician confirmation before administration [UCG 4.1.4].
+
+Question (to choose the correct oxygen device now):
+What oxygen delivery options do you have at bedside right now—nasal cannula, simple face mask, or non‑rebreather (mask with reservoir)—and what is the patient’s current mental status (alert vs drowsy/confused)?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.4
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎

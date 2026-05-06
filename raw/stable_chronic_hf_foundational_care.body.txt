@@ -1,0 +1,102 @@
+Medly Uganda HF Support
+
+🧪 Prototype — for evaluation, not clinical use. Behavior and features will evolve.
+
+🏥 Care Mode
+
+In-person / General
+
+In-clinic encounters and general clinical questions
+
+Remote monitoring (beta)
+
+Phone-call follow-ups — patient not physically present. Beta: behavior is still being refined with the clinical team.
+
+📋 Patient Record
+
+No patient attached. In production the dashboard sends this when a clinician opens the chat from a patient's page. Load a test patient below to simulate it.
+
+🧠 What I Know (from conversation)
+
+What the AI has picked up from this chat. Cross-check with the Patient Record above — inferences may differ from documented data.
+
+Demographics: 62-year-old adult
+Presenting Complaint: ankle oedema
+Diagnoses: chronic HFrEF
+Current Status: stable, no acute distress
+keyboard_arrow_right
+
+🧪 Test patients (demo only)
+
+keyboard_arrow_right
+
+🔍 Debug info (developer)
+
+keyboard_arrow_right
+
+ℹ️ About this prototype
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+A stable 62-year-old adult has chronic HFrEF with ankle oedema but no acute distress. Summarize Uganda guideline-based ongoing management and monitoring.
+
+smart_toy
+
+Persistent ankle oedema in a stable chronic HFrEF patient usually means they are still hypervolemic (congested), so the immediate priority is to assess volume status and basic vitals to decide whether congestion is truly present and how severe it is (before considering any diuretic or other medication adjustment) [HF Algorithm].
+
+Single next step (in clinic, now):
+Measure and document BP, pulse, SpO₂, and weight, and examine for JVP elevation and lung crackles (key congestion signs) [HF Algorithm]; also check dependent oedema and tender/enlarged liver [UCG 4.1.3].
+
+What are today’s BP, pulse (and rhythm if you have it), SpO₂, and weight, and on exam does she have raised JVP and/or lung crackles, or is it isolated ankle oedema only?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+📚 Source
+
+✕
+
+HF Algorithm
+
+HF Algorithm
+
+HF Algorithm: 4.3A: Reduced Left Ventricular Systolic Function?
+
+4.3A: Reduced Left Ventricular Systolic Function?
+
+Question: Does the echo show reduced left ventricular systolic function?
+
+HFrEF = EF < 40% (reduced)
+HFmrEF = EF 41-50% (moderately reduced)
+
+If YES (HFrEF or HFmrEF) → Treatment Plan:
+
+Loop diuretic if hypervolemic
+SGLT2i
+ACEi / ARB / ARNi (titrate to goal dose)
+Beta blocker (titrate to goal dose - goal HR 60-80 bpm)
+Add spironolactone
+Investigate and treat cause of cardiomyopathy
+
+If NO → Proceed to 4.3B

@@ -1,0 +1,37 @@
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+A 70-year-old with chronic heart failure is dizzy, BP 86/54, cool extremities, creatinine has risen, and they are taking enalapril, carvedilol, spironolactone and furosemide. What medication safety issues and escalation steps should I consider?
+
+smart_toy
+
+⚠️ URGENT: BP 86/54 with cool extremities and dizziness in a chronic HF patient is a red flag for shock/poor perfusion (possible cardiogenic shock/low-output state) and the rising creatinine may reflect acute kidney injury from poor renal perfusion. This needs immediate senior clinician/cardiologist involvement and hospital-level escalation [HF Algorithm].
+
+Single next step (right now, in clinic): repeat and confirm hemodynamic status—recheck BP (manual if possible), heart rate, SpO₂, mental status, capillary refill, and place the patient lying down with raised legs while you call the responsible clinician/cardiologist urgently (shock supportive positioning is in UCG) [UCG 1.1.2].
+
+Before we discuss any medication holding/adjustment (which requires cardiologist confirmation before administration), what are the patient’s HR, SpO₂, and level of consciousness, and do you have urine output information (oliguria/anuria)?
+
+Sources (click to view):
+
+HF Algorithm
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 7.1.1
+
+UCG 1.1.2
+
+UCG 4.1.4
+
+UCG 7.1.3
+
+Was this response helpful?
+
+👍
+
+👎
