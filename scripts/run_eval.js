@@ -28,6 +28,7 @@ function parseArgs(argv) {
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === "--append") args.append = true;
+    else if (arg === "--resume") args.resume = true;
     else if (arg === "--dry-run") args.dryRun = true;
     else if (arg === "--suite") args.suite = argv[++i];
     else if (arg === "--run-label") args.runLabel = argv[++i];
@@ -287,24 +288,29 @@ function outputPaths() {
   };
 }
 
-function writeOutputs(results, args) {
-  const paths = outputPaths();
-  const existing = args.append && fs.existsSync(paths.jsonl)
-    ? fs.readFileSync(paths.jsonl, "utf8").trim().split(/\n+/).filter(Boolean).map((line) => JSON.parse(line))
-    : [];
-  const combined = [...existing, ...results];
+function readExistingResults(paths, args) {
+  if (!args.append || !fs.existsSync(paths.jsonl)) return [];
+  return fs.readFileSync(paths.jsonl, "utf8")
+    .trim()
+    .split(/\n+/)
+    .filter(Boolean)
+    .map((line) => JSON.parse(line));
+}
+
+function writeResultArtifacts(r) {
+  if (r.score.verdict === "error") {
+    fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.error.txt`), r.score.error || "Unknown error");
+    return;
+  }
+  fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.assistant.txt`), r.capture.assistant_text);
+  fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.chat.txt`), r.capture.chat_text);
+  fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.body.txt`), r.capture.full_body_text);
+  fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.turns.json`), `${JSON.stringify(r.capture.turns || [], null, 2)}\n`);
+}
+
+function writeSummaryFiles(combined, paths) {
   const jsonl = combined.map((r) => JSON.stringify(r)).join("\n") + "\n";
   fs.writeFileSync(paths.jsonl, jsonl);
-  for (const r of results) {
-    if (r.score.verdict === "error") {
-      fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.error.txt`), r.score.error || "Unknown error");
-      continue;
-    }
-    fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.assistant.txt`), r.capture.assistant_text);
-    fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.chat.txt`), r.capture.chat_text);
-    fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.body.txt`), r.capture.full_body_text);
-    fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.turns.json`), `${JSON.stringify(r.capture.turns || [], null, 2)}\n`);
-  }
   const csvLines = [
     "id,riskClass,verdict,score,elapsed_ms,include_passed,include_total,must_not_passed,must_not_total",
     ...combined.map((r) => [
@@ -322,6 +328,21 @@ function writeOutputs(results, args) {
   fs.writeFileSync(paths.csv, csvLines.join("\n") + "\n");
 }
 
+function writeOutputs(results, args) {
+  const paths = outputPaths();
+  const existing = readExistingResults(paths, args);
+  const combined = [...existing, ...results];
+  for (const r of results) {
+    writeResultArtifacts(r);
+  }
+  writeSummaryFiles(combined, paths);
+}
+
+function isFatalBrowserError(error) {
+  const text = String(error && error.stack ? error.stack : error);
+  return /browser has been closed|Target page, context or browser has been closed|Browser closed/i.test(text);
+}
+
 (async () => {
   const scenarios = selectScenarios(SCENARIOS, ARGS);
   if (!scenarios.length) {
@@ -332,10 +353,15 @@ function writeOutputs(results, args) {
     for (const scenario of scenarios) console.log(`${scenario.id} | ${scenario.riskClass} | ${scenario.category || "uncategorized"}`);
     return;
   }
+  const paths = outputPaths();
+  const priorResults = readExistingResults(paths, { ...ARGS, append: ARGS.append || ARGS.resume });
+  const priorIds = new Set(priorResults.filter((result) => result.score.verdict !== "error").map((result) => result.scenario.id));
+  const pendingScenarios = ARGS.resume ? scenarios.filter((scenario) => !priorIds.has(scenario.id)) : scenarios;
+  if (ARGS.resume) console.log(`Resume mode: ${priorIds.size} existing results, ${pendingScenarios.length} pending scenarios`);
   const browser = await chromium.launch({ headless: true });
-  const results = [];
+  const results = [...priorResults];
   try {
-    for (const scenario of scenarios) {
+    for (const scenario of pendingScenarios) {
       console.log(`RUN ${scenario.id}`);
       let result;
       try {
@@ -344,10 +370,15 @@ function writeOutputs(results, args) {
         result = errorResult(scenario, error);
       }
       results.push(result);
+      writeResultArtifacts(result);
+      writeSummaryFiles(results, paths);
       console.log(`${scenario.id}: ${result.score.verdict} ${result.score.score} (${result.capture.elapsed_ms} ms)`);
+      if (result.score.verdict === "error" && isFatalBrowserError(result.score.error || "")) {
+        console.log(`Stopping early after fatal browser error at ${scenario.id}; rerun with --resume to continue.`);
+        break;
+      }
     }
   } finally {
     await browser.close();
   }
-  writeOutputs(results, ARGS);
 })();
