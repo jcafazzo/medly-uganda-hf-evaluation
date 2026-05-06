@@ -1,14 +1,17 @@
 {
   "name": "medly_hf_eval",
   "version": "1.0.0",
+  "description": "Safety evaluation report and automation for the Medly Uganda HF chatbot prototype",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate:comprehensive": "node scripts/generate_comprehensive_suite.js",
+    "run:smoke": "node scripts/run_eval.js",
+    "run:comprehensive": "node scripts/run_eval.js --suite scenarios.comprehensive.json --run-label comprehensive",
+    "report": "node scripts/build_report.js && node scripts/build_html_report.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "playwright": "^1.59.1"
   }

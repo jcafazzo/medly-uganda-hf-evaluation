@@ -2,9 +2,10 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const ROOT = path.resolve(__dirname, "..");
-const resultsPath = path.join(ROOT, "processed", "eval_results.jsonl");
-const outPath = path.join(ROOT, "reports", "safety_eval_report.html");
-const indexPath = path.join(ROOT, "index.html");
+const ARGS = parseArgs(process.argv.slice(2));
+const resultsPath = path.resolve(ROOT, ARGS.results || "processed/eval_results.jsonl");
+const outPath = path.resolve(ROOT, ARGS.out || "reports/safety_eval_report.html");
+const indexPath = ARGS.index === "false" ? "" : path.resolve(ROOT, ARGS.index || "index.html");
 
 const results = fs.readFileSync(resultsPath, "utf8")
   .trim()
@@ -95,11 +96,26 @@ const prohibitedRows = (result) => result.score.must_not.map((item) => ({
   evidence: item.passed ? "" : evidenceSnippet(result.capture.assistant_text, item.pattern),
 }));
 
+function parseArgs(argv) {
+  const args = {};
+  for (let i = 0; i < argv.length; i += 1) {
+    const arg = argv[i];
+    if (arg === "--results") args.results = argv[++i];
+    else if (arg === "--out") args.out = argv[++i];
+    else if (arg === "--index") args.index = argv[++i];
+    else if (arg.startsWith("--")) throw new Error(`Unknown option: ${arg}`);
+  }
+  return args;
+}
+
 function buildHtml(assetPrefix) {
 const reportHref = `${assetPrefix}reports/safety_eval_report.md`;
 const jsonlHref = `${assetPrefix}processed/eval_results.jsonl`;
 const basisHref = `${assetPrefix}guidelines/ucg_hf_acceptance_basis.md`;
 const rawHref = (name) => `${assetPrefix}raw/${name}`;
+const relHref = (relPath) => `${assetPrefix}${relPath}`;
+const assistantHref = (result) => relHref((result.capture.full_body_text_path || `raw/${result.scenario.id}.body.txt`).replace(".body.txt", ".assistant.txt"));
+const screenshotHref = (result) => result.capture.screenshot_path ? relHref(result.capture.screenshot_path) : "";
 
 return `<!doctype html>
 <html lang="en">
@@ -864,7 +880,7 @@ return `<!doctype html>
         <ul class="finding-list">
           ${missedSignals(r).map((item) => `<li>${escapeHtml(item.pattern)}</li>`).join("")}
         </ul>
-        <p><a href="${rawHref(`${r.scenario.id}.assistant.txt`)}">Open raw assistant answer</a></p>
+        <p><a href="${assistantHref(r)}">Open raw assistant answer</a></p>
       </article>`).join("") || `<article class="finding"><h3>No non-pass cases</h3><p class="section-copy">No scenarios were flagged for human review in this run.</p></article>`}
     </div>
   </section>
@@ -925,8 +941,8 @@ return `<!doctype html>
       <div class="evidence-grid">
         ${results.slice(0, 6).map((r) => `
         <figure class="evidence">
-          <a href="${rawHref(`${r.scenario.id}.png`)}"><img src="${rawHref(`${r.scenario.id}.png`)}" alt="Screenshot for ${escapeHtml(r.scenario.id)}"></a>
-          <figcaption>${escapeHtml(titleCase(r.scenario.id))}<br><a href="${rawHref(`${r.scenario.id}.assistant.txt`)}">Assistant answer</a></figcaption>
+          ${screenshotHref(r) ? `<a href="${screenshotHref(r)}"><img src="${screenshotHref(r)}" alt="Screenshot for ${escapeHtml(r.scenario.id)}"></a>` : ""}
+          <figcaption>${escapeHtml(titleCase(r.scenario.id))}<br><a href="${assistantHref(r)}">Assistant answer</a></figcaption>
         </figure>`).join("")}
       </div>
     </div>
@@ -942,6 +958,6 @@ return `<!doctype html>
 }
 
 fs.writeFileSync(outPath, buildHtml("../"));
-fs.writeFileSync(indexPath, buildHtml(""));
+if (indexPath) fs.writeFileSync(indexPath, buildHtml(""));
 console.log(outPath);
-console.log(indexPath);
+if (indexPath) console.log(indexPath);

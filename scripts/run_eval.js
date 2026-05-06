@@ -3,8 +3,12 @@ const path = require("node:path");
 const { chromium } = require("playwright");
 
 const ROOT = path.resolve(__dirname, "..");
-const SCENARIOS = JSON.parse(fs.readFileSync(path.join(ROOT, "scenarios.json"), "utf8"));
-const RAW_DIR = path.join(ROOT, "raw");
+const ARGS = parseArgs(process.argv.slice(2));
+const SUITE_PATH = path.resolve(ROOT, ARGS.suite || "scenarios.json");
+const SCENARIOS = JSON.parse(fs.readFileSync(SUITE_PATH, "utf8"));
+const RUN_LABEL = ARGS.runLabel ? slugText(ARGS.runLabel) : "";
+const RAW_DIR = RUN_LABEL ? path.join(ROOT, "raw", RUN_LABEL) : path.join(ROOT, "raw");
+const RAW_REL_DIR = RUN_LABEL ? `raw/${RUN_LABEL}` : "raw";
 const PROCESSED_DIR = path.join(ROOT, "processed");
 fs.mkdirSync(RAW_DIR, { recursive: true });
 fs.mkdirSync(PROCESSED_DIR, { recursive: true });
@@ -14,6 +18,41 @@ const PASSWORD = process.env.MEDLY_DEMO_PASSWORD || "";
 
 function slugText(s) {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "").slice(0, 80);
+}
+
+function parseArgs(argv) {
+  const args = {
+    append: false,
+    positional: [],
+  };
+  for (let i = 0; i < argv.length; i += 1) {
+    const arg = argv[i];
+    if (arg === "--append") args.append = true;
+    else if (arg === "--dry-run") args.dryRun = true;
+    else if (arg === "--suite") args.suite = argv[++i];
+    else if (arg === "--run-label") args.runLabel = argv[++i];
+    else if (arg === "--offset") args.offset = Number(argv[++i]);
+    else if (arg === "--limit") args.limit = Number(argv[++i]);
+    else if (arg === "--tag") args.tag = argv[++i];
+    else if (arg === "--category") args.category = argv[++i];
+    else if (arg === "--risk") args.risk = argv[++i];
+    else if (arg === "--id") args.ids = (argv[++i] || "").split(",").filter(Boolean);
+    else if (arg.startsWith("--")) throw new Error(`Unknown option: ${arg}`);
+    else args.positional.push(arg);
+  }
+  return args;
+}
+
+function selectScenarios(allScenarios, args) {
+  let scenarios = allScenarios;
+  const ids = new Set([...(args.ids || []), ...args.positional]);
+  if (ids.size) scenarios = scenarios.filter((scenario) => ids.has(scenario.id));
+  if (args.tag) scenarios = scenarios.filter((scenario) => (scenario.tags || []).includes(args.tag));
+  if (args.category) scenarios = scenarios.filter((scenario) => scenario.category === args.category);
+  if (args.risk) scenarios = scenarios.filter((scenario) => scenario.riskClass === args.risk);
+  const offset = Number.isFinite(args.offset) ? Math.max(0, args.offset) : 0;
+  const limit = Number.isFinite(args.limit) ? Math.max(0, args.limit) : undefined;
+  return scenarios.slice(offset, limit === undefined ? undefined : offset + limit);
 }
 
 async function waitForApp(page) {
@@ -169,24 +208,65 @@ async function runOne(browser, scenario) {
       assistant_text: capture.assistant,
       chat_text: capture.chat,
       full_body_text: capture.body,
-      full_body_text_path: `raw/${scenario.id}.body.txt`,
-      screenshot_path: `raw/${scenario.id}.png`,
+      full_body_text_path: `${RAW_REL_DIR}/${scenario.id}.body.txt`,
+      screenshot_path: `${RAW_REL_DIR}/${scenario.id}.png`,
     },
     score,
   };
 }
 
-function writeOutputs(results) {
-  const jsonl = results.map((r) => JSON.stringify(r)).join("\n") + "\n";
-  fs.writeFileSync(path.join(PROCESSED_DIR, "eval_results.jsonl"), jsonl);
+function errorResult(scenario, error) {
+  return {
+    run_at: new Date().toISOString(),
+    app_url: APP_URL,
+    scenario,
+    capture: {
+      elapsed_ms: 0,
+      assistant_text: "",
+      chat_text: "",
+      full_body_text: "",
+      full_body_text_path: `${RAW_REL_DIR}/${scenario.id}.body.txt`,
+      screenshot_path: "",
+    },
+    score: {
+      score: 0,
+      verdict: "error",
+      include: (scenario.must_include_regex || []).map((pattern) => ({ pattern, passed: false })),
+      must_not: (scenario.must_not_include_regex || []).map((pattern) => ({ pattern, passed: false })),
+      safetyCriticalFailure: true,
+      error: String(error && error.stack ? error.stack : error),
+    },
+  };
+}
+
+function outputPaths() {
+  const suffix = RUN_LABEL ? `.${RUN_LABEL}` : "";
+  return {
+    jsonl: path.join(PROCESSED_DIR, `eval_results${suffix}.jsonl`),
+    csv: path.join(PROCESSED_DIR, `score_summary${suffix}.csv`),
+  };
+}
+
+function writeOutputs(results, args) {
+  const paths = outputPaths();
+  const existing = args.append && fs.existsSync(paths.jsonl)
+    ? fs.readFileSync(paths.jsonl, "utf8").trim().split(/\n+/).filter(Boolean).map((line) => JSON.parse(line))
+    : [];
+  const combined = [...existing, ...results];
+  const jsonl = combined.map((r) => JSON.stringify(r)).join("\n") + "\n";
+  fs.writeFileSync(paths.jsonl, jsonl);
   for (const r of results) {
+    if (r.score.verdict === "error") {
+      fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.error.txt`), r.score.error || "Unknown error");
+      continue;
+    }
     fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.assistant.txt`), r.capture.assistant_text);
     fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.chat.txt`), r.capture.chat_text);
     fs.writeFileSync(path.join(RAW_DIR, `${r.scenario.id}.body.txt`), r.capture.full_body_text);
   }
   const csvLines = [
     "id,riskClass,verdict,score,elapsed_ms,include_passed,include_total,must_not_passed,must_not_total",
-    ...results.map((r) => [
+    ...combined.map((r) => [
       r.scenario.id,
       r.scenario.riskClass,
       r.score.verdict,
@@ -198,23 +278,35 @@ function writeOutputs(results) {
       r.score.must_not.length,
     ].join(",")),
   ];
-  fs.writeFileSync(path.join(PROCESSED_DIR, "score_summary.csv"), csvLines.join("\n") + "\n");
+  fs.writeFileSync(paths.csv, csvLines.join("\n") + "\n");
 }
 
 (async () => {
-  const selected = process.argv.slice(2);
-  const scenarios = selected.length ? SCENARIOS.filter((s) => selected.includes(s.id)) : SCENARIOS;
+  const scenarios = selectScenarios(SCENARIOS, ARGS);
+  if (!scenarios.length) {
+    throw new Error("No scenarios matched the requested suite/filter/offset/limit.");
+  }
+  console.log(`Suite: ${path.relative(ROOT, SUITE_PATH)} | scenarios selected: ${scenarios.length}${RUN_LABEL ? ` | run label: ${RUN_LABEL}` : ""}`);
+  if (ARGS.dryRun) {
+    for (const scenario of scenarios) console.log(`${scenario.id} | ${scenario.riskClass} | ${scenario.category || "uncategorized"}`);
+    return;
+  }
   const browser = await chromium.launch({ headless: true });
   const results = [];
   try {
     for (const scenario of scenarios) {
       console.log(`RUN ${scenario.id}`);
-      const result = await runOne(browser, scenario);
+      let result;
+      try {
+        result = await runOne(browser, scenario);
+      } catch (error) {
+        result = errorResult(scenario, error);
+      }
       results.push(result);
       console.log(`${scenario.id}: ${result.score.verdict} ${result.score.score} (${result.capture.elapsed_ms} ms)`);
     }
   } finally {
     await browser.close();
   }
-  writeOutputs(results);
+  writeOutputs(results, ARGS);
 })();
