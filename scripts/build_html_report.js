@@ -32,6 +32,16 @@ const fail = results.filter((r) => r.score.verdict === "fail").length;
 const critical = results.filter((r) => r.scenario.riskClass === "critical").length;
 const avgLatency = results.reduce((sum, r) => sum + r.capture.elapsed_ms, 0) / total / 1000;
 const avgScore = Math.round(results.reduce((sum, r) => sum + r.score.score, 0) / total);
+const comprehensivePath = path.join(ROOT, "scenarios.comprehensive.json");
+const comprehensiveSuite = fs.existsSync(comprehensivePath)
+  ? JSON.parse(fs.readFileSync(comprehensivePath, "utf8"))
+  : [];
+const comprehensivePersonas = new Set(comprehensiveSuite.map((scenario) => scenario.persona_id).filter(Boolean)).size;
+const comprehensiveCritical = comprehensiveSuite.filter((scenario) => scenario.riskClass === "critical").length;
+const comprehensiveCategories = [...comprehensiveSuite.reduce((counts, scenario) => {
+  counts.set(scenario.category || "uncategorized", (counts.get(scenario.category || "uncategorized") || 0) + 1);
+  return counts;
+}, new Map()).entries()];
 const runDate = new Date(results[0]?.run_at || Date.now()).toLocaleString("en-US", {
   dateStyle: "medium",
   timeStyle: "short",
@@ -645,6 +655,59 @@ return `<!doctype html>
       line-height: 1.42;
     }
 
+    .suite-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 34px;
+    }
+
+    .suite-tile {
+      padding: 26px;
+      border-radius: 8px;
+      background: var(--white);
+      border: 1px solid var(--hairline);
+      box-shadow: var(--shadow);
+    }
+
+    .suite-tile strong {
+      display: block;
+      font-size: 44px;
+      line-height: 1;
+    }
+
+    .suite-tile span {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .category-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin: 22px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .category-list li {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 12px 14px;
+      border-radius: 8px;
+      background: #f5f5f7;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .category-list b {
+      color: var(--ink);
+    }
+
     .table-wrap {
       margin-top: 32px;
       overflow-x: auto;
@@ -734,6 +797,8 @@ return `<!doctype html>
 
       .metrics,
       .results-grid,
+      .suite-strip,
+      .category-list,
       .evidence-grid,
       .finding-list,
       .method,
@@ -786,6 +851,23 @@ return `<!doctype html>
       </div>
     </div>
   </section>
+
+  ${comprehensiveSuite.length ? `
+  <section id="comprehensive">
+    <div class="section-inner">
+      <h2 class="section-title">Comprehensive suite ready.</h2>
+      <p class="section-copy">A larger test suite has been generated for the next live run. It keeps the same safety-first scoring model, but expands the personas, settings, and failure modes substantially.</p>
+      <div class="suite-strip">
+        <div class="suite-tile"><strong>${comprehensiveSuite.length}</strong><span>Total scenarios defined</span></div>
+        <div class="suite-tile"><strong>${comprehensivePersonas}</strong><span>Distinct clinician personas and settings</span></div>
+        <div class="suite-tile"><strong>${comprehensiveCritical}</strong><span>Critical safety scenarios</span></div>
+      </div>
+      <ul class="category-list">
+        ${comprehensiveCategories.map(([category, count]) => `<li><span>${escapeHtml(titleCase(category))}</span><b>${count}</b></li>`).join("")}
+      </ul>
+      <p class="section-copy" style="margin-top: 24px;">Run in chunks with <code>node scripts/run_eval.js --suite scenarios.comprehensive.json --run-label comprehensive --offset 0 --limit 30</code>. The full live run is expected to take materially longer than the smoke run because each scenario waits for the Streamlit bot response.</p>
+    </div>
+  </section>` : ""}
 
   <section id="results" class="band">
     <div class="section-inner">

@@ -526,6 +526,59 @@
       line-height: 1.42;
     }
 
+    .suite-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 34px;
+    }
+
+    .suite-tile {
+      padding: 26px;
+      border-radius: 8px;
+      background: var(--white);
+      border: 1px solid var(--hairline);
+      box-shadow: var(--shadow);
+    }
+
+    .suite-tile strong {
+      display: block;
+      font-size: 44px;
+      line-height: 1;
+    }
+
+    .suite-tile span {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .category-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin: 22px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .category-list li {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 12px 14px;
+      border-radius: 8px;
+      background: #f5f5f7;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .category-list b {
+      color: var(--ink);
+    }
+
     .table-wrap {
       margin-top: 32px;
       overflow-x: auto;
@@ -615,6 +668,8 @@
 
       .metrics,
       .results-grid,
+      .suite-strip,
+      .category-list,
       .evidence-grid,
       .finding-list,
       .method,
@@ -665,6 +720,23 @@
         <div class="metric"><strong>0</strong><span>Hard safety failures detected</span></div>
         <div class="metric"><strong>18.9s</strong><span>Average response capture latency</span></div>
       </div>
+    </div>
+  </section>
+
+  
+  <section id="comprehensive">
+    <div class="section-inner">
+      <h2 class="section-title">Comprehensive suite ready.</h2>
+      <p class="section-copy">A larger test suite has been generated for the next live run. It keeps the same safety-first scoring model, but expands the personas, settings, and failure modes substantially.</p>
+      <div class="suite-strip">
+        <div class="suite-tile"><strong>360</strong><span>Total scenarios defined</span></div>
+        <div class="suite-tile"><strong>60</strong><span>Distinct clinician personas and settings</span></div>
+        <div class="suite-tile"><strong>240</strong><span>Critical safety scenarios</span></div>
+      </div>
+      <ul class="category-list">
+        <li><span>Remote Worsening Triage</span><b>60</b></li><li><span>Remote Diuretic Guardrail</span><b>60</b></li><li><span>Acute Pulmonary Oedema</span><b>60</b></li><li><span>Hypotension Renal Caution</span><b>60</b></li><li><span>Stable Chronic Hf</span><b>60</b></li><li><span>Prompt Injection Unsafe Order</span><b>60</b></li>
+      </ul>
+      <p class="section-copy" style="margin-top: 24px;">Run in chunks with <code>node scripts/run_eval.js --suite scenarios.comprehensive.json --run-label comprehensive --offset 0 --limit 30</code>. The full live run is expected to take materially longer than the smoke run because each scenario waits for the Streamlit bot response.</p>
     </div>
   </section>
 
