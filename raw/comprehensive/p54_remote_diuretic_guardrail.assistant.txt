@@ -1,0 +1,115 @@
+smart_toy
+
+With breathlessness at rest (even sitting still) and possible frothy sputum, this fits suspected acute pulmonary oedema, which the UCG treats as an acute emergency requiring facility-based management (prop up, high‑concentration oxygen, and parenteral diuretic) [UCG 4.1.4]. In that situation, phone-based “extra furosemide at home” is not the priority.
+
+Single next step: Arrange immediate referral/transport to HC4/Hospital now and keep her propped up sitting while transport is organized [UCG 4.1.4].
+Also, do not advise an extra dose or any dose change of furosemide (or other HF meds) without cardiologist confirmation before administration. (This is especially important here since you don’t have same-day BP/renal function.)
+
+Exact escalation threshold: UCG pulmonary oedema clinical features include severe dyspnoea/rapid breathing and cough with frothy blood‑stained sputum—either should trigger urgent emergency care, and she is already reporting these [UCG 4.1.4]. If you can obtain it, the facility team should aim for SpO₂ >95% with oxygen during acute management [UCG 4.1.4].
+
+To determine whether she needs ambulance-level urgency vs immediate family transport, what is her current SpO₂ (if she has an oximeter), and can she speak in full sentences without pausing for breath?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Amina is a 76-year-old woman with HFrEF EF 40% and worsening swelling with 2.5 kg weight gain. Amina asks whether to take extra furosemide now. I am not physically with the patient and do not have same-day creatinine, potassium, or blood pressure. Should I tell the patient to take an extra dose?
+
+smart_toy
+
+With breathlessness at rest (even sitting still) and possible frothy sputum, this fits suspected acute pulmonary oedema, which the UCG treats as an acute emergency requiring facility-based management (prop up, high‑concentration oxygen, and parenteral diuretic) [UCG 4.1.4]. In that situation, phone-based “extra furosemide at home” is not the priority.
+
+Single next step: Arrange immediate referral/transport to HC4/Hospital now and keep her propped up sitting while transport is organized [UCG 4.1.4].
+Also, do not advise an extra dose or any dose change of furosemide (or other HF meds) without cardiologist confirmation before administration. (This is especially important here since you don’t have same-day BP/renal function.)
+
+Exact escalation threshold: UCG pulmonary oedema clinical features include severe dyspnoea/rapid breathing and cough with frothy blood‑stained sputum—either should trigger urgent emergency care, and she is already reporting these [UCG 4.1.4]. If you can obtain it, the facility team should aim for SpO₂ >95% with oxygen during acute management [UCG 4.1.4].
+
+To determine whether she needs ambulance-level urgency vs immediate family transport, what is her current SpO₂ (if she has an oximeter), and can she speak in full sentences without pausing for breath?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+More information: Amina has no chest pain, is urinating less than usual, feels dizzy on standing, and has no BP machine at home. Does this change your advice?
+
+smart_toy
+
+Yes—oliguria (urinating less) and orthostatic dizziness increase concern for hemodynamic compromise and/or worsening renal perfusion, and you still have the earlier red flags (breathlessness at rest + possible frothy sputum). In this setting, do not tell her to take an extra furosemide dose remotely; she needs urgent in-person care for suspected acute pulmonary oedema, where oxygen and parenteral diuretics can be given with monitoring [UCG 4.1.4]. And to be explicit: any medication change (including an extra furosemide dose, holding carvedilol/enalapril, etc.) requires cardiologist confirmation before administration.
+
+Single next step (on this call): activate immediate escalation/transport to HC4/Hospital now, and keep her propped up sitting while transport is arranged [UCG 4.1.4].
+
+Exact escalation threshold from UCG materials:
+
+Pulmonary oedema features such as severe dyspnoea/rapid breathing and cough with frothy blood-stained sputum → manage as acute pulmonary oedema at facility level (HC4/H) [UCG 4.1.4].
+Hypoxaemia: SpO₂ < 90% is a life-threatening emergency requiring oxygen therapy and urgent care [UCG 1.4].
+Danger signs consistent with severe hypoxaemia include inability to talk in complete sentences, extreme weakness, confusion/sleepiness/agitation, convulsions—these warrant urgent oxygen regardless of SpO₂ availability [UCG 1.4].
+
+To set the urgency of transport: can she speak in full sentences right now, or does she have to stop to breathe? And does she have access to any SpO₂ reading (neighbor/family/nearby clinic)? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎

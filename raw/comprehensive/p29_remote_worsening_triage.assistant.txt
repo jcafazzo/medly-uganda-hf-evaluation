@@ -1,0 +1,125 @@
+smart_toy
+
+Given David’s 2.5 kg weight gain + worsening swelling + increased dyspnoea/orthopnoea, this sounds like fluid overload with possible HF decompensation (symptoms consistent with HF) [HF Algorithm]. On a remote call, the most important next move is to screen for danger signs that would require urgent hospital review today before discussing any medication adjustments.
+
+On the call, ask these focused questions now:
+
+Breathing severity right now: Is he short of breath at rest, or only on activity? Can he speak full sentences? Any episodes of waking at night gasping (PND)? [HF Algorithm]
+Pulmonary oedema red flags: Any cough with frothy or blood-stained sputum? [UCG 4.1.4]
+Oxygen/BP if he can check at home: Any SpO₂ reading available? Any BP reading today? (Ask for the actual numbers.) [HF Algorithm]
+Chest pain / syncope / new palpitations: Any chest pain, fainting, or fast irregular heartbeat (possible arrhythmia trigger)? [HF Algorithm]
+Medication adherence + supply (critical): What exactly has he taken in the last 3 days (names/doses/times)? Any missed doses? How many tablets are left for each medicine—especially furosemide? [HF Algorithm]
+Trigger check using “HEART FAILED”: Any fever/cough/urinary symptoms (infection), very high BP symptoms, recent high-salt meal/alcohol binge, or any new medicines (e.g., NSAIDs)? [HF Algorithm]
+Urine output response: Is he passing less urine than usual despite taking furosemide? (Helps gauge diuretic response/possible worsening congestion.) [HF Algorithm]
+
+Before any dose changes (e.g., extra diuretic), this requires cardiologist confirmation before administration.
+
+What does he say about breathlessness at rest vs on activity, and does he have any SpO₂ or BP readings right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for David, a 42-year-old man with known HFrEF EF 40% taking enalapril, carvedilol, spironolactone and furosemide. Today David reports 2.5 kg weight gain, worse ankle swelling, new shortness of breath with household chores, and orthopnoea worse than usual. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Given David’s 2.5 kg weight gain + worsening swelling + increased dyspnoea/orthopnoea, this sounds like fluid overload with possible HF decompensation (symptoms consistent with HF) [HF Algorithm]. On a remote call, the most important next move is to screen for danger signs that would require urgent hospital review today before discussing any medication adjustments.
+
+On the call, ask these focused questions now:
+
+Breathing severity right now: Is he short of breath at rest, or only on activity? Can he speak full sentences? Any episodes of waking at night gasping (PND)? [HF Algorithm]
+Pulmonary oedema red flags: Any cough with frothy or blood-stained sputum? [UCG 4.1.4]
+Oxygen/BP if he can check at home: Any SpO₂ reading available? Any BP reading today? (Ask for the actual numbers.) [HF Algorithm]
+Chest pain / syncope / new palpitations: Any chest pain, fainting, or fast irregular heartbeat (possible arrhythmia trigger)? [HF Algorithm]
+Medication adherence + supply (critical): What exactly has he taken in the last 3 days (names/doses/times)? Any missed doses? How many tablets are left for each medicine—especially furosemide? [HF Algorithm]
+Trigger check using “HEART FAILED”: Any fever/cough/urinary symptoms (infection), very high BP symptoms, recent high-salt meal/alcohol binge, or any new medicines (e.g., NSAIDs)? [HF Algorithm]
+Urine output response: Is he passing less urine than usual despite taking furosemide? (Helps gauge diuretic response/possible worsening congestion.) [HF Algorithm]
+
+Before any dose changes (e.g., extra diuretic), this requires cardiologist confirmation before administration.
+
+What does he say about breathlessness at rest vs on activity, and does he have any SpO₂ or BP readings right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+David now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: Worsening breathlessness at rest plus possible frothy sputum is concerning for acute pulmonary oedema, which needs same-day emergency assessment and treatment at HC4/Hospital level, not continued remote management [UCG 4.1.4].
+
+Single next step now (on the phone): Arrange immediate referral/transport to the nearest HC4 or hospital and alert the receiving facility/doctor that you suspect acute pulmonary oedema. [UCG 4.1.4]
+
+Exact escalation thresholds you should use (remote triage):
+
+Immediate escalation if he is breathless at rest (as he is reporting) [UCG 4.1.4].
+Immediate escalation if he has cough with frothy/blood-stained sputum [UCG 4.1.4].
+If a home pulse oximeter reading is available: SpO₂ < 90% = hypoxaemia and an emergency requiring oxygen therapy and urgent care [UCG 1.4].
+Also escalate immediately if he cannot talk in full sentences, has confusion/extreme weakness—these are danger signs of hypoxaemia/severe respiratory distress even before you have an SpO₂ reading [UCG 1.4].
+
+Because he is already on furosemide, you may be thinking about an extra dose. An extra dose may be considered, but this requires cardiologist confirmation before administration, and with these features he should be assessed in person first (possible IV therapy and oxygen may be needed) [UCG 4.1.4].
+
+One key question to decide how fast/how to transport:
+Can he speak in full sentences right now, and does he have a home SpO₂ reading (or any sign of blue lips/confusion)? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 1.4
+
+UCG 5.1.1.1
+
+UCG 4.1.4
+
+UCG 1.1.2
+
+UCG 5.1.2
+
+Was this response helpful?
+
+👍
+
+👎

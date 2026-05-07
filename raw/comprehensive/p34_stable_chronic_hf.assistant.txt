@@ -1,0 +1,103 @@
+smart_toy
+
+⚠️ The data you’ve provided contains high‑risk features, not a “stable chronic HF” picture: SBP 89/58 with cool peripheries + rising creatinine suggests poor perfusion/cardiogenic shock physiology (a red flag in the HF Algorithm) [HF Algorithm]. In that situation, the immediate priority is stabilization and escalation, not routine chronic GDMT up‑titration.
+
+Single next step (now, in clinic): do an immediate vital/perfusion assessment: repeat BP (manual) and measure SpO₂ right away while you activate urgent senior review/transfer if confirmed hypotension/hypoxaemia [HF Algorithm].
+
+Because any adjustment (increase, decrease, hold, switch, or extra dose) of enalapril/carvedilol/spironolactone/furosemide is a medication change, this requires cardiologist (or receiving senior physician) confirmation before administration. [UCG 4.1.3] (caution with ACEi/beta blocker when SBP <90 and monitor renal function).
+
+To decide whether she needs oxygen/urgent transfer immediately: what is her current SpO₂ and the repeated manual BP (and HR) right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Amina is a stable 77-year-old woman with chronic HFrEF EF 40% and mild ankle oedema but no acute distress. Please summarize Uganda guideline-based ongoing management and monitoring.
+
+smart_toy
+
+⚠️ The data you’ve provided contains high‑risk features, not a “stable chronic HF” picture: SBP 89/58 with cool peripheries + rising creatinine suggests poor perfusion/cardiogenic shock physiology (a red flag in the HF Algorithm) [HF Algorithm]. In that situation, the immediate priority is stabilization and escalation, not routine chronic GDMT up‑titration.
+
+Single next step (now, in clinic): do an immediate vital/perfusion assessment: repeat BP (manual) and measure SpO₂ right away while you activate urgent senior review/transfer if confirmed hypotension/hypoxaemia [HF Algorithm].
+
+Because any adjustment (increase, decrease, hold, switch, or extra dose) of enalapril/carvedilol/spironolactone/furosemide is a medication change, this requires cardiologist (or receiving senior physician) confirmation before administration. [UCG 4.1.3] (caution with ACEi/beta blocker when SBP <90 and monitor renal function).
+
+To decide whether she needs oxygen/urgent transfer immediately: what is her current SpO₂ and the repeated manual BP (and HR) right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+The patient asks what medicines and lifestyle changes matter most. Please cover salt, fluids, alcohol, activity, furosemide, ACE inhibitor, beta blocker, and spironolactone where appropriate.
+
+smart_toy
+
+Because she has worsening shortness of breath with activity/orthopnoea and weight gain with swelling, these are typical heart failure congestion symptoms [HF Algorithm]. Before counselling on “ongoing stable” self-care, the single most important first thing in clinic is to confirm she is not acutely hypoxaemic or unstable right now by checking current SpO₂ and BP/pulse (and sit her upright if breathless) [HF Algorithm], [UCG 4.1.3].
+
+What are her current SpO₂, BP, and pulse today in clinic?
+
+(Once you confirm she is stable, I can give a patient-friendly explanation of the key lifestyle priorities—salt, fluids, alcohol, activity, and daily weight monitoring—and what each of furosemide, enalapril, carvedilol, and spironolactone is for, based on PocketDoktor and the HF Algorithm [PocketDoktor], [HF Algorithm].)
+
+Sources (click to view):
+
+HF Algorithm
+
+PocketDoktor
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎

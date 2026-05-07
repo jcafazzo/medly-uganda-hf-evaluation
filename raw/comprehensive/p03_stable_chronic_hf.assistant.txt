@@ -1,0 +1,105 @@
+smart_toy
+
+Grace is not stable right now: SBP 84/50 with dizziness, cool peripheries, and rising creatinine is a red flag for poor perfusion/cardiogenic shock (or another shock state) and she needs urgent escalation rather than GDMT uptitration [UCG 4.1.3]. Beta blockers and ACE inhibitors are specifically cautioned when SBP <90 mmHg with renal function monitoring [UCG 4.1.3], and GDMT titration requires SBP >90 mmHg for carvedilol and enalapril [GDMT Tables].
+
+Single next step (now): initiate urgent escalation/referral: call the medical officer/receiving hospital urgently and activate the ambulance for transfer with close monitoring. Do not change any HF medicine doses locally until the doctor/cardiologist has reviewed. Any medication change (hold, reduce, increase, extra dose, or switch) requires cardiologist/doctor confirmation before administration.
+
+To guide what to communicate and what immediate supportive care is needed before departure:
+
+What are her current vitals right now—SpO₂ (and whether on oxygen), HR, RR, and mental status—and does she have ongoing pulmonary oedema signs (severe dyspnoea/crepitations/frothy sputum) at this moment?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.7
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Grace is a stable 48-year-old woman with chronic HFrEF EF 28% and mild ankle oedema but no acute distress. Please summarize Uganda guideline-based ongoing management and monitoring.
+
+smart_toy
+
+Grace is not stable right now: SBP 84/50 with dizziness, cool peripheries, and rising creatinine is a red flag for poor perfusion/cardiogenic shock (or another shock state) and she needs urgent escalation rather than GDMT uptitration [UCG 4.1.3]. Beta blockers and ACE inhibitors are specifically cautioned when SBP <90 mmHg with renal function monitoring [UCG 4.1.3], and GDMT titration requires SBP >90 mmHg for carvedilol and enalapril [GDMT Tables].
+
+Single next step (now): initiate urgent escalation/referral: call the medical officer/receiving hospital urgently and activate the ambulance for transfer with close monitoring. Do not change any HF medicine doses locally until the doctor/cardiologist has reviewed. Any medication change (hold, reduce, increase, extra dose, or switch) requires cardiologist/doctor confirmation before administration.
+
+To guide what to communicate and what immediate supportive care is needed before departure:
+
+What are her current vitals right now—SpO₂ (and whether on oxygen), HR, RR, and mental status—and does she have ongoing pulmonary oedema signs (severe dyspnoea/crepitations/frothy sputum) at this moment?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.7
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+The patient asks what medicines and lifestyle changes matter most. Please cover salt, fluids, alcohol, activity, furosemide, ACE inhibitor, beta blocker, and spironolactone where appropriate.
+
+smart_toy
+
+Before counseling on long‑term medicines and lifestyle, the single most important first step is to confirm she is currently hemodynamically stable in clinic (because earlier in this chat she had SBP 84/50, cool peripheries, and rising creatinine—if present now, that is urgent and we should not focus on chronic counseling) [UCG 4.1.3].
+
+Next step (do now): check and document current vitals: BP, pulse, SpO₂, and weight (and brief symptom check for dyspnoea at rest/orthopnoea) [HF Algorithm], [UCG 4.1.3].
+
+Question: What are her current BP, HR, SpO₂, and weight today (and is she breathless at rest)?
+
+Sources (click to view):
+
+HF Algorithm
+
+PocketDoktor
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎

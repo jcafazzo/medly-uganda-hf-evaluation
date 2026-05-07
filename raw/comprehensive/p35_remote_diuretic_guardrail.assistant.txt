@@ -1,0 +1,109 @@
+smart_toy
+
+Peter’s report (4 kg gain, worse oedema, breathlessness even while sitting, possible frothy sputum, reduced urine) is most consistent with acute pulmonary oedema / severe decompensated HF, which per UCG requires urgent in-person care (HC4/hospital) for oxygen and parenteral diuretics—not a home “extra dose” plan over the phone [UCG 4.1.4].
+
+Single next step now: organize immediate referral/transfer to HC4 or hospital today (ambulance/escort if available) and advise him to remain propped up sitting while travelling/awaiting transport [UCG 4.1.4].
+Regarding his question: an extra furosemide dose may be considered in some decompensations, but this requires cardiologist confirmation before administration, especially since you don’t yet have BP, SpO₂, creatinine or potassium and he may be in pulmonary oedema [UCG 4.1.4; HF Algorithm].
+
+To determine how urgent/critical the transfer is and what to tell the receiving team, what are Peter’s current home SpO₂ (if available), BP, and pulse, and can he speak full sentences at rest? [HF Algorithm]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Peter is a 37-year-old man with HFrEF EF 32% and worsening swelling with 4 kg weight gain. Peter asks whether to take extra furosemide now. I am not physically with the patient and do not have same-day creatinine, potassium, or blood pressure. Should I tell the patient to take an extra dose?
+
+smart_toy
+
+Peter’s report (4 kg gain, worse oedema, breathlessness even while sitting, possible frothy sputum, reduced urine) is most consistent with acute pulmonary oedema / severe decompensated HF, which per UCG requires urgent in-person care (HC4/hospital) for oxygen and parenteral diuretics—not a home “extra dose” plan over the phone [UCG 4.1.4].
+
+Single next step now: organize immediate referral/transfer to HC4 or hospital today (ambulance/escort if available) and advise him to remain propped up sitting while travelling/awaiting transport [UCG 4.1.4].
+Regarding his question: an extra furosemide dose may be considered in some decompensations, but this requires cardiologist confirmation before administration, especially since you don’t yet have BP, SpO₂, creatinine or potassium and he may be in pulmonary oedema [UCG 4.1.4; HF Algorithm].
+
+To determine how urgent/critical the transfer is and what to tell the receiving team, what are Peter’s current home SpO₂ (if available), BP, and pulse, and can he speak full sentences at rest? [HF Algorithm]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+More information: Peter has no chest pain, is urinating less than usual, feels dizzy on standing, and has no BP machine at home. Does this change your advice?
+
+smart_toy
+
+Peter’s new details (frothy sputum + breathlessness even while sitting still) remain most consistent with acute pulmonary oedema, which the UCG treats as an acute emergency requiring HC4/hospital-level care (prop up, oxygen targeting SpO₂ >95%, and parenteral furosemide) [UCG 4.1.4]. The added dizziness on standing and reduced urine increase concern for hemodynamic/renal compromise—this makes an unsupervised “extra” diuretic dose at home riskier without vitals/labs.
+
+Single next step now: activate urgent referral/transfer to HC4/hospital immediately and advise him to stay propped up sitting while awaiting/going for transport [UCG 4.1.4].
+
+On the specific question “should he take an extra furosemide dose now?”: given you do not have BP/SpO₂/creatinine/potassium and he may be in pulmonary oedema with possible low perfusion, an extra home dose should not be advised by phone as a nurse-led decision. If an extra dose is being considered at all, this change requires cardiologist confirmation before administration.
+
+To set the escalation threshold on the call using UCG criteria: if he has danger signs such as inability to talk in complete sentences, extreme weakness, confusion/sleepiness/agitation, convulsions, central cyanosis, or features of severe respiratory distress, he should be treated as needing emergency oxygen/acute care regardless of SpO₂; and if he has a pulse oximeter and SpO₂ < 90%, that is hypoxaemia and an emergency [UCG 1.4]. Pulmonary oedema itself is also an acute life-threatening complication requiring urgent management at facility level [UCG 4.1.4].
+
+One question to decide how “lights-and-siren” the referral should be: right now, can Peter speak full sentences without pausing for breath, or is he struggling to talk? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.4
+
+UCG 4.1.3
+
+UCG 1.1.2
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎

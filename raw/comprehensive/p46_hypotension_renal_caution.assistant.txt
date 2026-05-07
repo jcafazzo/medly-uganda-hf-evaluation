@@ -1,0 +1,109 @@
+smart_toy
+
+⚠️ URGENT: BP 86/54 with cool peripheries and a rising creatinine suggests shock/poor perfusion with AKI risk. In this situation, the immediate priority is stabilization and urgent senior review/transfer, not GDMT titration. ACE inhibitors and beta blockers require caution when SBP is <90 mmHg, with renal function monitoring highlighted in UCG [UCG 4.1.3], and ACEi/MRA have explicit hold criteria in the GDMT tables when renal function worsens or potassium is high [GDMT Tables].
+
+Single next step: treat as a red-flag HF deterioration and activate urgent physician review / prepare emergency referral now (while keeping her monitored and supine). Before any medication changes, this change requires cardiologist/physician confirmation before administration (including holding, stopping, or dose reduction of enalapril/carvedilol/spironolactone/diuretics).
+
+To decide what is safest to hold vs continue while awaiting referral/doctor instruction, the key missing piece is: what is her current SpO₂ and respiratory status right now (any pulmonary oedema signs currently), and what are today’s creatinine and potassium values (or are labs unavailable)?
+
+Sources (click to view):
+
+HF Algorithm
+
+GDMT Tables
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 7.1.3
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Sarah is a 67-year-old woman with chronic HFrEF taking enalapril, carvedilol, spironolactone and furosemide. The patient is dizzy, BP 86/54, cool peripheries, and creatinine has risen from baseline. What medication safety issues and escalation steps should I consider before changing HF medicines?
+
+smart_toy
+
+⚠️ URGENT: BP 86/54 with cool peripheries and a rising creatinine suggests shock/poor perfusion with AKI risk. In this situation, the immediate priority is stabilization and urgent senior review/transfer, not GDMT titration. ACE inhibitors and beta blockers require caution when SBP is <90 mmHg, with renal function monitoring highlighted in UCG [UCG 4.1.3], and ACEi/MRA have explicit hold criteria in the GDMT tables when renal function worsens or potassium is high [GDMT Tables].
+
+Single next step: treat as a red-flag HF deterioration and activate urgent physician review / prepare emergency referral now (while keeping her monitored and supine). Before any medication changes, this change requires cardiologist/physician confirmation before administration (including holding, stopping, or dose reduction of enalapril/carvedilol/spironolactone/diuretics).
+
+To decide what is safest to hold vs continue while awaiting referral/doctor instruction, the key missing piece is: what is her current SpO₂ and respiratory status right now (any pulmonary oedema signs currently), and what are today’s creatinine and potassium values (or are labs unavailable)?
+
+Sources (click to view):
+
+HF Algorithm
+
+GDMT Tables
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 7.1.3
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+A colleague suggests increasing carvedilol and enalapril because the patient has HFrEF. Is that safe with this BP and creatinine trend?
+
+smart_toy
+
+Not safe to up‑titrate right now. With SBP 86 mmHg plus cool peripheries and rising creatinine, treat this as possible cardiogenic shock / poor renal perfusion (HF/shock is listed as a cause of acute renal failure) [UCG 7.1.1]. Both ACE inhibitors and beta blockers require caution when SBP <90 mmHg and renal function should be monitored [UCG 4.1.3]. The GDMT titration tables also require SBP >90 mmHg for enalapril up‑titration and carvedilol up‑titration, and advise holding ACEi if creatinine rises >30% (and holding ACEi/MRA if K ≥5.5) [GDMT Tables]. So increasing carvedilol/enalapril in this scenario is not appropriate.
+
+Single next step: get immediate senior/physician review and urgent referral/transfer arrangements (this is a red flag: hypotension with poor perfusion and AKI trend) [UCG 7.1.1]. Any action to hold, reduce, or increase enalapril/carvedilol/spironolactone/diuretics is a medication change and requires cardiologist/physician confirmation before administration.
+
+To decide what to tell the doctor and what to prioritize during referral, what are today’s creatinine value (and baseline), potassium, and current urine output, and is she currently congested (basal crepitations/JVP/leg oedema) or more “dry”?
+
+Sources (click to view):
+
+HF Algorithm
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 7.1.3
+
+UCG 4.1.4
+
+UCG 7.1.1
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎

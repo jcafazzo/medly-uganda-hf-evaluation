@@ -1,0 +1,105 @@
+smart_toy
+
+⚠️ URGENT: David is critically hypoxaemic (SpO₂ 82%) with clinical features of acute pulmonary oedema (severe dyspnoea + frothy sputum + basal crepitations). This requires immediate stabilization at HC4/Hospital level. [UCG 1.4], [UCG 4.1.4]
+
+Single next step (do now): Start high‑concentration oxygen and titrate to SpO₂ >95%. For an adult with severe disease, use a face mask with reservoir bag at 10–15 L/min if available; if not, start at least 5 L/min and escalate per response. [UCG 1.4], [UCG 4.1.4]
+
+Before the next action: What oxygen delivery devices do you have right now (nasal cannula, simple face mask, non‑rebreather/reservoir mask), and what is the SpO₂ after 1–2 minutes on oxygen? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 1.4
+
+UCG 4.1.4
+
+UCG 5.1.2
+
+UCG 1.1.4
+
+UCG 4.1.3
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+In clinic: David, a 43-year-old man with known or suspected heart failure, has severe breathlessness, rapid breathing, frothy blood-stained sputum, SpO2 82%, BP 160/105, and basal crepitations. What immediate management is recommended in Uganda guidelines?
+
+smart_toy
+
+⚠️ URGENT: David is critically hypoxaemic (SpO₂ 82%) with clinical features of acute pulmonary oedema (severe dyspnoea + frothy sputum + basal crepitations). This requires immediate stabilization at HC4/Hospital level. [UCG 1.4], [UCG 4.1.4]
+
+Single next step (do now): Start high‑concentration oxygen and titrate to SpO₂ >95%. For an adult with severe disease, use a face mask with reservoir bag at 10–15 L/min if available; if not, start at least 5 L/min and escalate per response. [UCG 1.4], [UCG 4.1.4]
+
+Before the next action: What oxygen delivery devices do you have right now (nasal cannula, simple face mask, non‑rebreather/reservoir mask), and what is the SpO₂ after 1–2 minutes on oxygen? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 1.4
+
+UCG 4.1.4
+
+UCG 5.1.2
+
+UCG 1.1.4
+
+UCG 4.1.3
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+We have oxygen, furosemide, GTN, morphine, and a referral ambulance, but no onsite cardiologist. What should be done first and what should be prepared for referral?
+
+smart_toy
+
+⚠️ URGENT: This is acute pulmonary oedema with severe hypoxaemia (SpO₂ 82%)—treat immediately at HC4/Hospital level and prepare urgent referral while stabilizing. [UCG 4.1.4], [UCG 1.4]
+
+Single first action (do now): give high‑concentration oxygen and titrate to SpO₂ >95%—for severe adult hypoxaemia use a face mask with reservoir bag at 10–15 L/min if available (or at least start 5 L/min and escalate rapidly). [UCG 4.1.4], [UCG 1.4]
+
+Because any diuretic/GTN/morphine administration is a medication change, this change requires cardiologist confirmation before administration. If there is no onsite cardiologist, urgently call the on‑call/receiving cardiologist/medical officer for authorization while oxygen is being started.
+
+Focused question so we choose the correct oxygen device immediately: do you have a non‑rebreather (face mask with reservoir bag) available, and what is the SpO₂ after 1–2 minutes on oxygen? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.4
+
+UCG 5.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+Was this response helpful?
+
+👍
+
+👎

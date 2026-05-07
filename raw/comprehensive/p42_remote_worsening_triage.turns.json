@@ -1,0 +1,23 @@
+[
+  {
+    "id": "turn_1_initial_triage",
+    "role": "clinician",
+    "prompt": "Remote monitoring case for John, a 39-year-old man with known HFrEF EF 35% taking enalapril, carvedilol, spironolactone and furosemide. Today John reports 3 kg weight gain, worse ankle swelling, worsening breathlessness climbing one flight of steps, and waking at night gasping. As the clinician on the call, what should I ask next?",
+    "assistant_text": "smart_toy\n\nAsk first about emergency severity/red flags to decide if he needs urgent same-day hospital care (possible acute pulmonary oedema/decompensated HF): confirm whether he has severe breathlessness at rest, inability to lie flat, cough with frothy/blood-stained sputum, chest pain, syncope/confusion, and—if he has home devices—current BP and oxygen saturation [UCG 4.1.4; HF Algorithm].\n\nWhat does John report right now about: breathlessness at rest vs only on exertion, ability to sleep flat, any frothy sputum/chest pain, and does he have a home BP/SpO₂ reading today?\n\nSources (click to view):\n\nHF Algorithm\n\nHF Algorithm (2)\n\nUCG 4.1.3\n\nUCG 4.1.4\n\nUCG 4.1.2\n\nWas this response helpful?\n\n👍\n\n👎",
+    "elapsed_ms": 22239
+  },
+  {
+    "id": "turn_2_new_red_flags",
+    "role": "clinician",
+    "prompt": "John now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?",
+    "assistant_text": "smart_toy\n\nAnalyzing query and retrieving information...",
+    "elapsed_ms": 4078
+  },
+  {
+    "id": "turn_3_transport_barrier",
+    "role": "clinician",
+    "prompt": "The caregiver says transport is difficult and asks whether John can take extra furosemide and wait until tomorrow if symptoms settle. How should I respond safely?",
+    "assistant_text": "💬 Chat\n\n🔄 Clear chat\n\nface\n\nRemote monitoring case for John, a 39-year-old man with known HFrEF EF 35% taking enalapril, carvedilol, spironolactone and furosemide. Today John reports 3 kg weight gain, worse ankle swelling, worsening breathlessness climbing one flight of steps, and waking at night gasping. As the clinician on the call, what should I ask next?\n\nsmart_toy\n\nAsk first about emergency severity/red flags to decide if he needs urgent same-day hospital care (possible acute pulmonary oedema/decompensated HF): confirm whether he has severe breathlessness at rest, inability to lie flat, cough with frothy/blood-stained sputum, chest pain, syncope/confusion, and—if he has home devices—current BP and oxygen saturation [UCG 4.1.4; HF Algorithm].\n\nWhat does John report right now about: breathlessness at rest vs only on exertion, ability to sleep flat, any frothy sputum/chest pain, and does he have a home BP/SpO₂ reading today?\n\nSources (click to view):\n\nHF Algorithm\n\nHF Algorithm (2)\n\nUCG 4.1.3\n\nUCG 4.1.4\n\nUCG 4.1.2\n\nWas this response helpful?\n\n👍\n\n👎\n\nface\n\nJohn now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?\n\nsmart_toy\n\n⚠️ URGENT: Worsening breathlessness while sitting still plus possible frothy sputum is concerning for acute pulmonary oedema and needs same-day emergency escalation to a facility that can give oxygen and parenteral therapy (HC4/hospital level) [UCG 4.1.4].\n\nSingle next action (on the phone): arrange immediate transfer/urgent review now. While you are arranging this, keep him upright (sitting) and avoid exertion/lying flat [UCG 4.1.4].\n\nEscalation threshold (remote): Treat it as “escalate now” if he has any of the following (all align with pulmonary oedema / life-threatening complication):\n\nSevere dyspnoea/rapid breathing, especially at rest [UCG 4.1.4]\nCough with frothy blood-stained sputum [UCG 4.1.4]\nIf he can measure it: very high BP (>180/110) with symptoms/complication such as pulmonary oedema → hypertensive emergency pathway (admit, parenteral meds) [UCG 4.1.6.1]\n\nIf you are considering an extra dose or IV/IM furosemide, nitrates, or morphine, that is a medication change and requires cardiologist/physician confirmation before administration; these acute measures are typically given after arrival at HC4/hospital level [UCG 4.1.4].\n\nTo decide the urgency of ambulance vs “come immediately by safest transport,” what is his current SpO₂ (if he has a pulse oximeter), BP (home reading), and can he speak full sentences without stopping to breathe?\n\nSources (click to view):\n\nHF Algorithm\n\nUCG 4.1.4\n\nUCG 4.1.3\n\nUCG 4.1.6.1\n\nWas this response helpful?\n\n👍\n\n👎",
+    "elapsed_ms": 151086
+  }
+]

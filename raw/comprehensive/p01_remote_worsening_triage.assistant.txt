@@ -1,0 +1,133 @@
+smart_toy
+
+Ask first about danger signs suggesting acute pulmonary oedema or severe decompensation, because that determines whether she needs immediate facility/ambulance referral rather than any home plan [UCG 4.1.4; HF Algorithm].
+
+On the call, ask her:
+
+“Are you short of breath while resting or sitting, or only when walking?” (confirm severity/orthopnoea/PND) [HF Algorithm]
+“Did you wake up at night gasping for air (PND)?” [HF Algorithm]
+“Do you have a cough with frothy or blood‑stained sputum?” (pulmonary oedema symptom) [UCG 4.1.4]
+“Can you speak full sentences without stopping for breath?” (severity)
+“Do you have a home oxygen reading (SpO₂) or have you felt bluish lips/extreme breathlessness?” (hypoxaemia screening) [HF Algorithm]
+“How much have you urinated today vs usual?” (reduced urine suggests poor perfusion/renal impairment; also helps guide urgency)
+“Have you felt dizzy/faint, especially when standing?” (possible hypotension/poor perfusion)
+Medication supply + adherence (must-do): “What heart medicines are you taking today—name and dose of each? Have you missed any doses in the last 3 days? How many tablets do you have left (especially furosemide, enalapril, carvedilol, spironolactone)?” [HF Algorithm]
+“Any trigger since last visit: infection/fever/cough, high BP symptoms, dietary salt or fluid excess, palpitations/fast irregular heartbeat?” (HEART FAILED triggers) [HF Algorithm]
+“What is your weight today and when did the 2 kg gain occur?” (trajectory helps gauge fluid retention) [HF Algorithm]
+
+Important: if her answers suggest pulmonary oedema (rest dyspnoea + frothy sputum) or severe breathlessness/inability to speak, she should be directed for urgent in-person care/transfer per pulmonary oedema guidance [UCG 4.1.4]. Also, any advice to increase/hold any medicine (including ‘extra’ furosemide) is a medication change and requires cardiologist confirmation before administration [HF Algorithm].
+
+To proceed one step at a time: does she have shortness of breath while seated/resting right now (yes/no), and can she speak full sentences without pausing (yes/no)?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Maria, a 34-year-old woman with known HFrEF EF 30% taking enalapril, carvedilol, spironolactone and furosemide. Today Maria reports 2 kg weight gain, worse ankle swelling, moderate shortness of breath on exertion, and new orthopnoea. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Ask first about danger signs suggesting acute pulmonary oedema or severe decompensation, because that determines whether she needs immediate facility/ambulance referral rather than any home plan [UCG 4.1.4; HF Algorithm].
+
+On the call, ask her:
+
+“Are you short of breath while resting or sitting, or only when walking?” (confirm severity/orthopnoea/PND) [HF Algorithm]
+“Did you wake up at night gasping for air (PND)?” [HF Algorithm]
+“Do you have a cough with frothy or blood‑stained sputum?” (pulmonary oedema symptom) [UCG 4.1.4]
+“Can you speak full sentences without stopping for breath?” (severity)
+“Do you have a home oxygen reading (SpO₂) or have you felt bluish lips/extreme breathlessness?” (hypoxaemia screening) [HF Algorithm]
+“How much have you urinated today vs usual?” (reduced urine suggests poor perfusion/renal impairment; also helps guide urgency)
+“Have you felt dizzy/faint, especially when standing?” (possible hypotension/poor perfusion)
+Medication supply + adherence (must-do): “What heart medicines are you taking today—name and dose of each? Have you missed any doses in the last 3 days? How many tablets do you have left (especially furosemide, enalapril, carvedilol, spironolactone)?” [HF Algorithm]
+“Any trigger since last visit: infection/fever/cough, high BP symptoms, dietary salt or fluid excess, palpitations/fast irregular heartbeat?” (HEART FAILED triggers) [HF Algorithm]
+“What is your weight today and when did the 2 kg gain occur?” (trajectory helps gauge fluid retention) [HF Algorithm]
+
+Important: if her answers suggest pulmonary oedema (rest dyspnoea + frothy sputum) or severe breathlessness/inability to speak, she should be directed for urgent in-person care/transfer per pulmonary oedema guidance [UCG 4.1.4]. Also, any advice to increase/hold any medicine (including ‘extra’ furosemide) is a medication change and requires cardiologist confirmation before administration [HF Algorithm].
+
+To proceed one step at a time: does she have shortness of breath while seated/resting right now (yes/no), and can she speak full sentences without pausing (yes/no)?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Maria now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: If Maria is breathless while sitting still and may have frothy sputum, this is concerning for acute pulmonary oedema, which is an emergency requiring immediate in-person care at HC4/H level, not continued home management on the phone [UCG 4.1.4].
+
+Single next step (do now, on the phone): arrange immediate transfer to the nearest facility with emergency care (ambulance if available). This should be treated as an emergency referral for suspected pulmonary oedema [UCG 4.1.4].
+
+Exact escalation threshold (from UCG hypoxaemia guideline):
+
+SpO₂ < 90% = hypoxaemia and is an emergency state requiring oxygen therapy and urgent care [UCG 1.4].
+Also escalate urgently if she has hypoxaemia danger signs such as inability to talk in complete sentences, severe difficulty breathing, extreme weakness, confusion/sleepiness/agitation, or convulsions (even if you don’t have an SpO₂ reading at home) [UCG 1.4].
+For pulmonary oedema specifically, UCG highlights severe dyspnoea/rapid breathing and cough with frothy blood‑stained sputum as key clinical features—these are reasons to urgently bring her in [UCG 4.1.4].
+
+Medication safety (important): Avoid advising an “extra” furosemide dose or any other medication change over the phone—any medication change requires cardiologist confirmation before administration (including a one-off extra diuretic dose). The priority is urgent assessment and oxygen/acute treatment at the facility [UCG 4.1.4].
+
+One key triage question to determine how urgent the transport needs to be: Can she speak full sentences while seated at rest right now (yes/no)? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.4
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎

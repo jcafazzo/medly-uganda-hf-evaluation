@@ -1,0 +1,128 @@
+smart_toy
+
+Given her rapid weight gain, worsening ankle swelling, and orthopnoea, this sounds like fluid overload/worsening HF symptoms, and the most important thing on the call is to screen for danger signs that need urgent referral (e.g., acute pulmonary oedema) while also checking for common triggers like missed meds or infection [HF Algorithm; UCG 4.1.3; UCG 4.1.4].
+
+Next, ask these focused questions (remote call):
+
+Breathing severity right now: “Are you short of breath at rest, or only when walking? Can you speak in full sentences?” [UCG 4.1.4]
+Pulmonary oedema symptoms: “Any cough with frothy sputum, or waking up suddenly at night gasping for air?” [UCG 4.1.4; HF Algorithm]
+Home vitals if available (today): “Do you have a BP reading, pulse/heart rate, and oxygen (SpO₂) reading? What is your weight today vs 2–3 days ago?” [HF Algorithm]
+Chest pain/syncope/confusion: “Any chest pain, fainting, or new confusion/extreme weakness?” (red flags—urgent escalation if yes) [HF Algorithm]
+Swelling/urine output: “Is swelling only ankles or also abdomen/face? Are you passing less urine than usual?” [HF Algorithm]
+Medication adherence + supply (must check): “Which heart medicines did you take yesterday and today (names + doses)? Have you missed any doses in the last week? How many tablets are left—especially furosemide, carvedilol, enalapril, spironolactone?” [HF Algorithm]
+Diet/fluids trigger: “In the last few days, did you take salty foods or drink more fluids than usual?” (dietary indiscretion trigger) [HF Algorithm; UCG 4.1.3]
+Infection/other triggers (HEART FAILED): “Fever, cough, burning urine, diarrhoea/vomiting, or any new illness?” [HF Algorithm]
+Arrhythmia symptoms: “New palpitations or very fast heartbeat?” (arrhythmia can trigger decompensation) [HF Algorithm; UCG 4.1.5]
+
+Before we talk about any possible medication adjustment (like diuretic changes), this requires cardiologist confirmation before administration.
+
+What is her status right now on the phone: is she breathless at rest or only on exertion, and does she have any home BP/HR/SpO₂ reading today?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Fatuma, a 36-year-old woman with known HFrEF EF 28% taking enalapril, carvedilol, spironolactone and furosemide. Today Fatuma reports 1.5 kg weight gain, worse ankle swelling, breathlessness when walking to the latrine, and needing three pillows. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Given her rapid weight gain, worsening ankle swelling, and orthopnoea, this sounds like fluid overload/worsening HF symptoms, and the most important thing on the call is to screen for danger signs that need urgent referral (e.g., acute pulmonary oedema) while also checking for common triggers like missed meds or infection [HF Algorithm; UCG 4.1.3; UCG 4.1.4].
+
+Next, ask these focused questions (remote call):
+
+Breathing severity right now: “Are you short of breath at rest, or only when walking? Can you speak in full sentences?” [UCG 4.1.4]
+Pulmonary oedema symptoms: “Any cough with frothy sputum, or waking up suddenly at night gasping for air?” [UCG 4.1.4; HF Algorithm]
+Home vitals if available (today): “Do you have a BP reading, pulse/heart rate, and oxygen (SpO₂) reading? What is your weight today vs 2–3 days ago?” [HF Algorithm]
+Chest pain/syncope/confusion: “Any chest pain, fainting, or new confusion/extreme weakness?” (red flags—urgent escalation if yes) [HF Algorithm]
+Swelling/urine output: “Is swelling only ankles or also abdomen/face? Are you passing less urine than usual?” [HF Algorithm]
+Medication adherence + supply (must check): “Which heart medicines did you take yesterday and today (names + doses)? Have you missed any doses in the last week? How many tablets are left—especially furosemide, carvedilol, enalapril, spironolactone?” [HF Algorithm]
+Diet/fluids trigger: “In the last few days, did you take salty foods or drink more fluids than usual?” (dietary indiscretion trigger) [HF Algorithm; UCG 4.1.3]
+Infection/other triggers (HEART FAILED): “Fever, cough, burning urine, diarrhoea/vomiting, or any new illness?” [HF Algorithm]
+Arrhythmia symptoms: “New palpitations or very fast heartbeat?” (arrhythmia can trigger decompensation) [HF Algorithm; UCG 4.1.5]
+
+Before we talk about any possible medication adjustment (like diuretic changes), this requires cardiologist confirmation before administration.
+
+What is her status right now on the phone: is she breathless at rest or only on exertion, and does she have any home BP/HR/SpO₂ reading today?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Fatuma now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: Worsening breathlessness while sitting still plus possible frothy sputum in a known HFrEF patient is concerning for acute pulmonary oedema, which requires immediate in-person emergency care (HC4/hospital) rather than continued remote management [UCG 4.1.4; HF Algorithm].
+
+Single next step (do this now): arrange immediate referral/transport to the nearest facility capable of oxygen and IV/IM therapy (HC4 or hospital), and keep her upright (sitting/propped up) while transport is organized [UCG 4.1.4].
+
+Exact escalation threshold (from loaded guidance):
+
+If SpO₂ < 90% → this is hypoxaemia (emergency) and needs oxygen therapy and urgent care [UCG 1.4].
+Even without a reading, danger signs like inability to talk in complete sentences, confusion/extreme weakness, or severe respiratory distress should be treated as an emergency needing urgent escalation [UCG 1.4].
+Clinical picture consistent with pulmonary oedema (severe dyspnoea ± frothy blood-stained sputum) warrants acute management at facility level [UCG 4.1.4].
+
+Because management at the facility may include parenteral furosemide and other acute HF measures, any medication change or extra dose requires cardiologist confirmation before administration (e.g., giving extra/IV furosemide, nitrates, morphine) [UCG 4.1.4; HF Algorithm].
+
+One question to confirm severity and guide the referral urgency right now:
+Does she have a home SpO₂ reading or can a nearby facility/community worker check it immediately—and is she able to speak in full sentences on the phone?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 1.4
+
+UCG 5.1.2
+
+UCG 4.1.4
+
+UCG 1.1.2
+
+UCG 5.1.1.1
+
+Was this response helpful?
+
+👍
+
+👎

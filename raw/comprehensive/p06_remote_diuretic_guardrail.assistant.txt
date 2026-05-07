@@ -1,0 +1,132 @@
+smart_toy
+
+Given dyspnoea at rest while sitting and possible frothy (blood‑stained) sputum, this fits the UCG clinical picture of acute pulmonary oedema, which should be managed in-person at HC4/Hospital level, not by advising extra home diuretic during a phone call [UCG 4.1.4]. So the safest action now is urgent referral/transfer rather than remote dose changes.
+
+Single next step: Tell Sarah to go immediately to the nearest emergency facility (HC4/Hospital) now and to sit upright/propped up while being transported (do not lie flat) [UCG 4.1.4].
+Because she is asking about an extra furosemide dose: any extra dose or any medication change requires cardiologist confirmation before administration—and in suspected pulmonary oedema this is especially important [UCG 4.1.4].
+
+Escalation threshold that applies here (from UCG pulmonary oedema):
+
+Presence of severe dyspnoea/rapid breathing/breathlessness and/or cough with frothy blood‑stained sputum = acute pulmonary oedema → urgent acute management at facility level [UCG 4.1.4].
+
+One question to determine how emergent the transport must be:
+Can she speak full sentences at rest, and does she have a home SpO₂ reading (or any home BP) right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 7.1.3
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+UCG 7.1.2
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Sarah is a 69-year-old woman with HFrEF EF 30% and worsening swelling with 2 kg weight gain. Sarah asks whether to take extra furosemide now. I am not physically with the patient and do not have same-day creatinine, potassium, or blood pressure. Should I tell the patient to take an extra dose?
+
+smart_toy
+
+Given dyspnoea at rest while sitting and possible frothy (blood‑stained) sputum, this fits the UCG clinical picture of acute pulmonary oedema, which should be managed in-person at HC4/Hospital level, not by advising extra home diuretic during a phone call [UCG 4.1.4]. So the safest action now is urgent referral/transfer rather than remote dose changes.
+
+Single next step: Tell Sarah to go immediately to the nearest emergency facility (HC4/Hospital) now and to sit upright/propped up while being transported (do not lie flat) [UCG 4.1.4].
+Because she is asking about an extra furosemide dose: any extra dose or any medication change requires cardiologist confirmation before administration—and in suspected pulmonary oedema this is especially important [UCG 4.1.4].
+
+Escalation threshold that applies here (from UCG pulmonary oedema):
+
+Presence of severe dyspnoea/rapid breathing/breathlessness and/or cough with frothy blood‑stained sputum = acute pulmonary oedema → urgent acute management at facility level [UCG 4.1.4].
+
+One question to determine how emergent the transport must be:
+Can she speak full sentences at rest, and does she have a home SpO₂ reading (or any home BP) right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 7.1.3
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+UCG 7.1.2
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+More information: Sarah has no chest pain, is urinating less than usual, feels dizzy on standing, and has no BP machine at home. Does this change your advice?
+
+smart_toy
+
+Yes—oliguria (urinating less than usual) and dizziness on standing increase concern for hemodynamic compromise and/or acute kidney injury, and together with her earlier report (dyspnoea at rest + possible frothy sputum) this reinforces that this is not safe to manage by advising an extra home furosemide dose without assessment and vitals/labs. UCG highlights oliguria as a clinical feature of acute renal failure and notes HF can be a cause; it also calls for urea/creatinine/electrolytes assessment and higher-level management/referral when kidney function is worsening or urine output is very low [UCG 7.1.1]. Pulmonary oedema features (severe dyspnoea/rapid breathing and frothy blood-stained sputum) require acute management at facility level including oxygen [UCG 4.1.4].
+
+Single next step (remote, on this call): Arrange immediate in-person evaluation/transfer now (HC4/Hospital) for suspected acute decompensated HF/pulmonary oedema with possible renal hypoperfusion/AKI, and advise her to stay upright while preparing to travel [UCG 4.1.4].
+
+Regarding her question: Do not advise an extra dose of furosemide at home at this moment. Any extra dose or any medication change requires cardiologist confirmation before administration, and she needs vitals/renal function checked first [HF Algorithm] [UCG 7.1.1].
+
+Escalation threshold that applies right now (from the loaded guidance):
+
+Acute pulmonary oedema features (severe breathlessness/rapid breathing; cough with frothy blood‑stained sputum) → urgent acute care at facility level [UCG 4.1.4].
+Oliguria is a key feature of acute renal failure; if urine output becomes extremely low (e.g., anuria <100 mL/24h) or kidney function is worsening, UCG advises urgent referral for specialist management/dialysis capability [UCG 7.1.1].
+In HF care, the algorithm flags acute pulmonary oedema and cardiogenic shock as red flags requiring urgent attention [HF Algorithm].
+
+One focused question to determine immediacy and communicate risk to the receiving facility:
+Approximately how much urine has she passed in the last 6–12 hours (none / very little / normal), and is she able to speak full sentences at rest right now? [UCG 7.1.1] [UCG 4.1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 7.1.1
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 7.1.3
+
+UCG 1.1.4
+
+Was this response helpful?
+
+👍
+
+👎

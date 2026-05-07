@@ -1,0 +1,115 @@
+smart_toy
+
+Given dyspnoea at rest plus possible cough with frothy blood‑stained sputum, this fits acute pulmonary oedema features in UCG and should be treated as an emergency referral for facility-based care (HC4/hospital) rather than trying to adjust oral diuretics at home by phone [UCG 4.1.4]. In UCG, acute pulmonary oedema management is prop up + high‑concentration oxygen and parenteral furosemide 40–80 mg IM/slow IV, repeat PRN—all of which require an in-person setting [UCG 4.1.4].
+
+So: do NOT tell her to take an extra furosemide dose now as a stand‑alone home action. If a home “extra dose” is being considered at all, this change requires cardiologist confirmation before administration.
+
+Single next step: initiate immediate escalation/transport now to the nearest HC4/hospital and keep her on the line while you confirm whether she meets highest urgency transfer criteria.
+
+To set the exact escalation threshold during the call, can you confirm:
+
+Is the sputum definitely frothy and blood‑stained/pink? [UCG 4.1.4]
+Does she have a home SpO₂ reading right now (and the number), or is she unable to speak full sentences at rest? (to judge severity/hypoxaemia) [HF Algorithm]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Amina is a 78-year-old woman with HFrEF EF 40% and worsening swelling with 2.5 kg weight gain. Amina asks whether to take extra furosemide now. I am not physically with the patient and do not have same-day creatinine, potassium, or blood pressure. Should I tell the patient to take an extra dose?
+
+smart_toy
+
+Given dyspnoea at rest plus possible cough with frothy blood‑stained sputum, this fits acute pulmonary oedema features in UCG and should be treated as an emergency referral for facility-based care (HC4/hospital) rather than trying to adjust oral diuretics at home by phone [UCG 4.1.4]. In UCG, acute pulmonary oedema management is prop up + high‑concentration oxygen and parenteral furosemide 40–80 mg IM/slow IV, repeat PRN—all of which require an in-person setting [UCG 4.1.4].
+
+So: do NOT tell her to take an extra furosemide dose now as a stand‑alone home action. If a home “extra dose” is being considered at all, this change requires cardiologist confirmation before administration.
+
+Single next step: initiate immediate escalation/transport now to the nearest HC4/hospital and keep her on the line while you confirm whether she meets highest urgency transfer criteria.
+
+To set the exact escalation threshold during the call, can you confirm:
+
+Is the sputum definitely frothy and blood‑stained/pink? [UCG 4.1.4]
+Does she have a home SpO₂ reading right now (and the number), or is she unable to speak full sentences at rest? (to judge severity/hypoxaemia) [HF Algorithm]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+More information: Amina has no chest pain, is urinating less than usual, feels dizzy on standing, and has no BP machine at home. Does this change your advice?
+
+smart_toy
+
+Yes—oliguria (urinating less) plus dizziness on standing increases concern for hemodynamic/renal compromise on top of likely congestion, and it strengthens the need for urgent in-person assessment rather than trying to adjust diuretics remotely without BP/renal labs. Oliguria is a clinical feature of acute renal failure, which can occur with HF/shock and needs evaluation with urea/creatinine/electrolytes and monitoring of BP and weight, with referral if worsening/anuria [UCG 7.1.1]. Her earlier report of dyspnoea at rest with possible frothy sputum remains concerning for pulmonary oedema, which is managed at HC4/hospital (oxygen and parenteral diuretics) [UCG 4.1.4].
+
+Single next step: treat this as urgent referral now to the nearest HC4/hospital for assessment and initial management (oxygen, IV/IM meds, renal function/electrolytes) [UCG 4.1.4; UCG 7.1.1].
+
+Because you asked specifically about extra furosemide: with no BP, no creatinine/potassium, plus dizziness/oliguria, do not advise an extra home dose. If an extra dose is being considered at all, this change requires cardiologist confirmation before administration.
+
+To set the urgency and communicate clearly to receiving staff, what is the time course and severity of the low urine output: approximately how many times has she passed urine in the last 24 hours, and is it <100 mL/24 h (anuria) or just “reduced”? (This affects urgency of renal referral.) [UCG 7.1.1]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.1.2
+
+UCG 7.1.1
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+Was this response helpful?
+
+👍
+
+👎

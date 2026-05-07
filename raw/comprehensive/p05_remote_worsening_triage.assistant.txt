@@ -1,0 +1,142 @@
+smart_toy
+
+Peter’s report (4 kg weight gain, worsening swelling, orthopnea, breathlessness, reduced urine output) is strongly concerning for acute decompensated HF with fluid overload; on this call, your priority is to screen for danger signs and need for urgent hospital care (acute pulmonary oedema/shock) before discussing any medication changes. This aligns with HF symptom assessment and vitals focus in the HF Algorithm and UCG HF/pulmonary oedema sections [HF Algorithm], [UCG 4.1.3], [UCG 4.1.4].
+
+Ask next (focused call questions):
+
+Breathing right now: “Are you breathless at rest? Can you speak in full sentences? Any episodes of waking up gasping at night (PND)?” [HF Algorithm]
+Pulmonary oedema symptoms: “Any cough with frothy or blood-stained sputum?” [UCG 4.1.4]
+Home vitals if available: “Do you have a BP reading, pulse rate, and oxygen saturation today? What is your current weight and when did it start rising?” (BP/pulse/SpO₂/weight are key vitals to assess in HF) [HF Algorithm]
+Perfusion/low output: “Any dizziness, fainting, confusion, extreme weakness, or cold hands/feet?” (screens for poor perfusion/shock risk) [UCG 1.1.2]
+Chest pain/palpitations: “Any chest pain or a new fast/irregular heartbeat?” (arrhythmia/ischemia can trigger decompensation) [HF Algorithm]
+Trigger check (quick HEART FAILED screen): “Any fever/cough (infection), missed doses, or high-salt meals/extra fluids recently?” [HF Algorithm]
+Medication supply/adherence (must confirm): “Which medicines did you take in the last 24 hours (names + doses), have you missed any, and how many tablets are left—especially furosemide, carvedilol, enalapril, spironolactone?” [HF Algorithm]
+Urine output clarification: “Since yesterday, are you passing much less urine than usual, or none? Any vomiting/diarrhoea (dehydration)?” (helps interpret oliguria and safety of diuresis) [UCG 1.1.4]
+
+Before any advice like an extra diuretic dose or holding/titrating HF medicines, this change requires cardiologist confirmation before administration [HF Algorithm].
+
+To decide the immediate disposition: what does Peter say about breathlessness at rest / ability to speak in full sentences, and do you have any home BP/SpO₂ reading right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 1.1.2
+
+UCG 4.1.4
+
+UCG 1.1.4
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Peter, a 62-year-old man with known HFrEF EF 32% taking enalapril, carvedilol, spironolactone and furosemide. Today Peter reports 4 kg weight gain, worse ankle swelling, breathlessness and reduced urine output, and sleeping upright in a chair. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Peter’s report (4 kg weight gain, worsening swelling, orthopnea, breathlessness, reduced urine output) is strongly concerning for acute decompensated HF with fluid overload; on this call, your priority is to screen for danger signs and need for urgent hospital care (acute pulmonary oedema/shock) before discussing any medication changes. This aligns with HF symptom assessment and vitals focus in the HF Algorithm and UCG HF/pulmonary oedema sections [HF Algorithm], [UCG 4.1.3], [UCG 4.1.4].
+
+Ask next (focused call questions):
+
+Breathing right now: “Are you breathless at rest? Can you speak in full sentences? Any episodes of waking up gasping at night (PND)?” [HF Algorithm]
+Pulmonary oedema symptoms: “Any cough with frothy or blood-stained sputum?” [UCG 4.1.4]
+Home vitals if available: “Do you have a BP reading, pulse rate, and oxygen saturation today? What is your current weight and when did it start rising?” (BP/pulse/SpO₂/weight are key vitals to assess in HF) [HF Algorithm]
+Perfusion/low output: “Any dizziness, fainting, confusion, extreme weakness, or cold hands/feet?” (screens for poor perfusion/shock risk) [UCG 1.1.2]
+Chest pain/palpitations: “Any chest pain or a new fast/irregular heartbeat?” (arrhythmia/ischemia can trigger decompensation) [HF Algorithm]
+Trigger check (quick HEART FAILED screen): “Any fever/cough (infection), missed doses, or high-salt meals/extra fluids recently?” [HF Algorithm]
+Medication supply/adherence (must confirm): “Which medicines did you take in the last 24 hours (names + doses), have you missed any, and how many tablets are left—especially furosemide, carvedilol, enalapril, spironolactone?” [HF Algorithm]
+Urine output clarification: “Since yesterday, are you passing much less urine than usual, or none? Any vomiting/diarrhoea (dehydration)?” (helps interpret oliguria and safety of diuresis) [UCG 1.1.4]
+
+Before any advice like an extra diuretic dose or holding/titrating HF medicines, this change requires cardiologist confirmation before administration [HF Algorithm].
+
+To decide the immediate disposition: what does Peter say about breathlessness at rest / ability to speak in full sentences, and do you have any home BP/SpO₂ reading right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 1.1.2
+
+UCG 4.1.4
+
+UCG 1.1.4
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Peter now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: Peter’s worsening breathlessness at rest plus possible frothy sputum is concerning for acute pulmonary oedema, which needs immediate in-person/emergency care (hospital/HC4 at minimum) rather than continued remote management [UCG 4.1.4].
+
+Single next step (now):
+Arrange immediate referral/transport to the nearest facility that can give oxygen and parenteral diuretics (HC4/H), and call ahead to alert them you suspect acute pulmonary oedema [UCG 4.1.4].
+Any medication change (e.g., extra furosemide, holding carvedilol/enalapril, adding GTN) requires cardiologist confirmation before administration [HF Algorithm], [UCG 4.1.4].
+
+Exact escalation threshold (during the call):
+Escalate now if he has any of the following (all consistent with pulmonary oedema severity features in UCG):
+
+Breathlessness at rest / cannot speak full sentences, or rapidly worsening dyspnoea [UCG 4.1.4]
+Cough with frothy blood-stained sputum [UCG 4.1.4]
+If home SpO₂ is available and is low (UCG sets an oxygen goal once treated; low SpO₂ at home supports emergency referral) [UCG 4.1.4]
+Signs of shock/poor perfusion such as confusion, cold extremities, very fast breathing/heart rate with low urine output (shock features) [UCG 1.1.2]
+
+To decide whether you need ambulance/urgent transport immediately (not private delayed transport), the most important missing information is his current functional status and any home vitals.
+
+Question to ask Peter right now (one question, to triage severity):
+Can he speak in full sentences without stopping for breath, and does he have a home oxygen saturation or BP reading at this moment?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 1.1.2
+
+UCG 4.1.4
+
+UCG 5.1.2
+
+UCG 1.1.4
+
+UCG 4.1.3
+
+Was this response helpful?
+
+👍
+
+👎

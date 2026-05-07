@@ -1,0 +1,132 @@
+smart_toy
+
+Given Fatuma’s acute worsening congestion (weight gain, worse edema, more breathlessness, orthopnea), the priority on this call is to screen for red flags that need urgent in-person review/admission (e.g., acute pulmonary oedema, shock, ACS, new arrhythmia) before discussing any medication adjustments [HF Algorithm; UCG 4.1.3; UCG 4.1.4].
+
+Ask her these focused questions next (patient self-report):
+
+Breathing severity right now: “Are you short of breath at rest, or only when walking?” “Can you speak in full sentences?” [UCG 4.1.4]
+Pulmonary oedema features: “Any cough with frothy or blood-stained sputum?” “Any wheezing?” [UCG 4.1.4]
+Low perfusion/shock symptoms: “Any fainting, severe dizziness, confusion, or extreme weakness?” (red flag per algorithm) [HF Algorithm]
+Chest pain/ischemia: “Any chest pain or tightness today?” (red flag) [HF Algorithm]
+Possible arrhythmia: “Any new palpitations or feeling the heart racing/irregular?” [UCG 4.1.5; HF Algorithm]
+Home vitals if available: “Do you have a BP reading, pulse reading, and oxygen (SpO₂) at home right now?” [HF Algorithm]
+Diuretic response/urine output: “After taking furosemide, are you passing urine as usual, less than usual, or much more?” [HF Algorithm]
+Trigger screen (HEART FAILED): In the last week—missed doses? high-salt meals? infection symptoms (fever/cough/UTI)? uncontrolled BP? [HF Algorithm]
+Medication adherence + supply (critical in remote care): “Which HF medicines did you take yesterday and today—name and dose?” “Any missed doses?” “How many tablets are left (especially furosemide)?” [HF Algorithm]
+
+Important safety note: Don’t advise any extra doses or dose changes of furosemide/other HF meds during the call unless a cardiologist confirms first. Any medication change requires cardiologist confirmation before administration. [HF Algorithm]
+
+From her answers so far: does she have shortness of breath at rest, frothy sputum, chest pain, syncope/confusion, or SpO₂ < 90% / SBP < 90 mmHg on home readings?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Fatuma, a 57-year-old woman with known HFrEF EF 28% taking enalapril, carvedilol, spironolactone and furosemide. Today Fatuma reports 1.5 kg weight gain, worse ankle swelling, breathlessness when walking to the latrine, and needing three pillows. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Given Fatuma’s acute worsening congestion (weight gain, worse edema, more breathlessness, orthopnea), the priority on this call is to screen for red flags that need urgent in-person review/admission (e.g., acute pulmonary oedema, shock, ACS, new arrhythmia) before discussing any medication adjustments [HF Algorithm; UCG 4.1.3; UCG 4.1.4].
+
+Ask her these focused questions next (patient self-report):
+
+Breathing severity right now: “Are you short of breath at rest, or only when walking?” “Can you speak in full sentences?” [UCG 4.1.4]
+Pulmonary oedema features: “Any cough with frothy or blood-stained sputum?” “Any wheezing?” [UCG 4.1.4]
+Low perfusion/shock symptoms: “Any fainting, severe dizziness, confusion, or extreme weakness?” (red flag per algorithm) [HF Algorithm]
+Chest pain/ischemia: “Any chest pain or tightness today?” (red flag) [HF Algorithm]
+Possible arrhythmia: “Any new palpitations or feeling the heart racing/irregular?” [UCG 4.1.5; HF Algorithm]
+Home vitals if available: “Do you have a BP reading, pulse reading, and oxygen (SpO₂) at home right now?” [HF Algorithm]
+Diuretic response/urine output: “After taking furosemide, are you passing urine as usual, less than usual, or much more?” [HF Algorithm]
+Trigger screen (HEART FAILED): In the last week—missed doses? high-salt meals? infection symptoms (fever/cough/UTI)? uncontrolled BP? [HF Algorithm]
+Medication adherence + supply (critical in remote care): “Which HF medicines did you take yesterday and today—name and dose?” “Any missed doses?” “How many tablets are left (especially furosemide)?” [HF Algorithm]
+
+Important safety note: Don’t advise any extra doses or dose changes of furosemide/other HF meds during the call unless a cardiologist confirms first. Any medication change requires cardiologist confirmation before administration. [HF Algorithm]
+
+From her answers so far: does she have shortness of breath at rest, frothy sputum, chest pain, syncope/confusion, or SpO₂ < 90% / SBP < 90 mmHg on home readings?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Fatuma now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: Worsening breathlessness at rest plus possible frothy sputum in a known HFrEF patient is concerning for acute pulmonary oedema, which needs immediate in-person assessment and treatment at HC4/Hospital level (oxygen/IV diuretics, monitoring) [UCG 4.1.4; UCG 4.1.3].
+
+Single next step (now, while still on the phone): arrange immediate transfer/return to facility (ambulance if available) and keep her upright/sitting while coming in [UCG 4.1.4; UCG 4.1.3].
+
+Escalation threshold (remote triage): escalate as emergency if she has any of the following on the call:
+
+Features suggestive of pulmonary oedema: severe dyspnoea/rapid breathing or cough with frothy blood-stained sputum [UCG 4.1.4]
+Hypoxaemia/danger signs: SpO₂ < 90% (if she has a home pulse oximeter) or danger signs like inability to talk in full sentences, confusion, extreme weakness [UCG 1.4]
+Signs of shock/poor perfusion symptoms (e.g., confusion) [UCG 1.1.2]
+Any of the HF red flags listed in the HF Algorithm (e.g., syncope, new arrhythmia symptoms) [HF Algorithm]
+
+Medication safety (remote): Do not advise an extra dose or any dose change of furosemide/other HF medicines on the phone unless the cardiologist confirms first. Any medication change requires cardiologist confirmation before administration. (If she arrives at HC4/Hospital, UCG includes acute pulmonary oedema treatment options such as oxygen and parenteral furosemide) [UCG 4.1.4].
+
+To decide how fast/what transport: Does she have a home SpO₂ reading and BP/pulse right now, and can she speak full sentences without stopping for breath? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.4
+
+UCG 4.1.3
+
+UCG 1.1.2
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎

@@ -1,0 +1,119 @@
+smart_toy
+
+Given Maria’s new rest dyspnoea/orthopnoea and possible frothy sputum, manage this as suspected acute pulmonary oedema / acute decompensated HF—she needs urgent in‑person assessment and treatment, not a phone-based dose adjustment [UCG 4.1.4; HF Algorithm].
+
+Single next step: Do NOT advise an extra furosemide dose on the phone; instead, activate urgent referral/ambulance to HC4/H now. Any “extra dose” is a medication change and requires cardiologist confirmation before administration (even a one-off extra dose) [HF Algorithm].
+
+Exact escalation threshold to apply (UCG): if she has a home oximeter and SpO₂ < 90%, that is hypoxaemia and a life‑threatening emergency requiring urgent oxygen/acute care [UCG 1.4]. Even without an SpO₂ reading, the combination of severe dyspnoea at rest plus frothy sputum is specifically listed under pulmonary oedema clinical features and warrants urgent facility care [UCG 4.1.4].
+
+To determine whether this is an immediate “call ambulance now” vs “go immediately to facility” level, I need one piece of triage information: Does Maria have an SpO₂ reading right now, and if yes what is it? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 7.1.3
+
+UCG 4.1.4
+
+UCG 7.1.1
+
+UCG 7.1.2
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Maria is a 34-year-old woman with HFrEF EF 30% and worsening swelling with 2 kg weight gain. Maria asks whether to take extra furosemide now. I am not physically with the patient and do not have same-day creatinine, potassium, or blood pressure. Should I tell the patient to take an extra dose?
+
+smart_toy
+
+Given Maria’s new rest dyspnoea/orthopnoea and possible frothy sputum, manage this as suspected acute pulmonary oedema / acute decompensated HF—she needs urgent in‑person assessment and treatment, not a phone-based dose adjustment [UCG 4.1.4; HF Algorithm].
+
+Single next step: Do NOT advise an extra furosemide dose on the phone; instead, activate urgent referral/ambulance to HC4/H now. Any “extra dose” is a medication change and requires cardiologist confirmation before administration (even a one-off extra dose) [HF Algorithm].
+
+Exact escalation threshold to apply (UCG): if she has a home oximeter and SpO₂ < 90%, that is hypoxaemia and a life‑threatening emergency requiring urgent oxygen/acute care [UCG 1.4]. Even without an SpO₂ reading, the combination of severe dyspnoea at rest plus frothy sputum is specifically listed under pulmonary oedema clinical features and warrants urgent facility care [UCG 4.1.4].
+
+To determine whether this is an immediate “call ambulance now” vs “go immediately to facility” level, I need one piece of triage information: Does Maria have an SpO₂ reading right now, and if yes what is it? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 7.1.3
+
+UCG 4.1.4
+
+UCG 7.1.1
+
+UCG 7.1.2
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+More information: Maria has no chest pain, is urinating less than usual, feels dizzy on standing, and has no BP machine at home. Does this change your advice?
+
+smart_toy
+
+Yes — reduced urine output (oliguria) and dizziness on standing makes it even less safe to advise an “extra” furosemide dose remotely without vitals and kidney labs, because she could be heading toward poor perfusion/acute kidney injury even if she is fluid overloaded. UCG notes oliguria + oedema + dyspnoea as features of acute renal failure and recommends checking creatinine/electrolytes and close monitoring, with referral for worsening function/anuria [UCG 7.1.1]. And her symptoms still strongly suggest acute pulmonary oedema (severe dyspnoea and frothy sputum) needing urgent facility management [UCG 4.1.4].
+
+Single next step (right now on the call): activate emergency referral/ambulance to HC4/H immediately. Treat as suspected acute pulmonary oedema with possible renal hypoperfusion/AKI risk [UCG 4.1.4; UCG 7.1.1].
+
+Escalation threshold (exact): if she can obtain an SpO₂ reading and it is < 90%, that is hypoxaemia and a life‑threatening emergency requiring urgent oxygen/acute care [UCG 1.4]. Even without SpO₂ at home, the UCG pulmonary oedema picture (severe dyspnoea + frothy sputum) supports urgent transfer [UCG 4.1.4].
+
+Medication change rule (explicit): an extra dose of furosemide is a medication change and requires cardiologist confirmation before administration. With no BP/creatinine/potassium available and new oliguria/dizziness, do not authorize an extra dose remotely—prioritize urgent assessment [HF Algorithm; UCG 7.1.1].
+
+One focused question to finalize the urgency and what the receiving team should expect: Is Maria able to speak full sentences while seated at rest right now (yes/no)?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 7.1.1
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+UCG 7.1.3
+
+UCG 1.1.2
+
+Was this response helpful?
+
+👍
+
+👎

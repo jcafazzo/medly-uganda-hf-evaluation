@@ -1,0 +1,109 @@
+smart_toy
+
+With breathlessness at rest + possible frothy sputum, this fits suspected acute pulmonary oedema, which the UCG treats as an acute emergency requiring HC4/hospital management (oxygen, parenteral furosemide, etc.) rather than home dose adjustments [UCG 4.1.4]. So the priority is urgent referral/transport now, not “extra furosemide at home”.
+
+On the specific question “should I tell her to take an extra dose?”: because you don’t have current BP/SpO₂/renal function and she may be in acute pulmonary oedema, do not advise an extra dose independently. If an extra dose is being considered while she’s waiting for transport, this change requires cardiologist confirmation before administration (even a one-off extra dose) [HF Algorithm].
+
+Single next action right now: initiate emergency escalation/transfer and keep her sitting upright while travel is arranged [UCG 4.1.4].
+
+To set the exact urgency and communicate clearly to the receiving unit: does she have a home SpO₂ reading now? If yes, what is it (and if none, can she speak in full sentences at rest, or only a few words)? [UCG 4.1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Rebecca is a 72-year-old woman with HFrEF EF 32% and worsening swelling with 4 kg weight gain. Rebecca asks whether to take extra furosemide now. I am not physically with the patient and do not have same-day creatinine, potassium, or blood pressure. Should I tell the patient to take an extra dose?
+
+smart_toy
+
+With breathlessness at rest + possible frothy sputum, this fits suspected acute pulmonary oedema, which the UCG treats as an acute emergency requiring HC4/hospital management (oxygen, parenteral furosemide, etc.) rather than home dose adjustments [UCG 4.1.4]. So the priority is urgent referral/transport now, not “extra furosemide at home”.
+
+On the specific question “should I tell her to take an extra dose?”: because you don’t have current BP/SpO₂/renal function and she may be in acute pulmonary oedema, do not advise an extra dose independently. If an extra dose is being considered while she’s waiting for transport, this change requires cardiologist confirmation before administration (even a one-off extra dose) [HF Algorithm].
+
+Single next action right now: initiate emergency escalation/transfer and keep her sitting upright while travel is arranged [UCG 4.1.4].
+
+To set the exact urgency and communicate clearly to the receiving unit: does she have a home SpO₂ reading now? If yes, what is it (and if none, can she speak in full sentences at rest, or only a few words)? [UCG 4.1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+More information: Rebecca has no chest pain, is urinating less than usual, feels dizzy on standing, and has no BP machine at home. Does this change your advice?
+
+smart_toy
+
+Yes—reduced urine output + dizziness on standing + no home BP increases concern for poor perfusion/hypotension in addition to fluid overload, and makes an unsupervised “extra furosemide” at home riskier. Given her breathlessness at rest and possible frothy sputum, manage this as suspected acute pulmonary oedema requiring urgent referral to HC4/hospital today rather than home diuretic escalation [UCG 4.1.4].
+
+On the medication question: an “extra furosemide dose” is a medication change and requires cardiologist confirmation before administration. In this context (possible pulmonary oedema + possible low BP/poor perfusion and no vitals/labs), I would not advise an extra dose independently; instead escalate for in-person assessment and treatment per acute pulmonary oedema care [UCG 4.1.4].
+
+Single next step on this call: arrange immediate transport/referral to a facility that can assess vitals and give oxygen/IM or IV diuretics as needed [UCG 4.1.4].
+
+To set the escalation urgency while you arrange transport: is she able to speak in full sentences at rest, or only a few words (severe respiratory distress)? [UCG 4.1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 4.1.7
+
+Was this response helpful?
+
+👍
+
+👎

@@ -1,0 +1,112 @@
+smart_toy
+
+Ask first about emergency severity right now—because new orthopnoea plus weight gain/edema could be worsening congestion, and we must rule out acute pulmonary oedema or shock urgently [UCG 4.1.4], [HF Algorithm].
+
+On the call, confirm:
+
+Is she severely breathless at rest or unable to speak full sentences?
+Any cough with frothy (possibly blood-stained) sputum?
+Does she have a home SpO₂ reading (and what is it)?
+Any chest pain, fainting, or new confusion? (red flags per HF algorithm) [HF Algorithm], [UCG 4.1.4]
+
+What does Sarah say to those questions, and does she have a home SpO₂ reading?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Sarah, a 44-year-old woman with known HFrEF EF 30% taking enalapril, carvedilol, spironolactone and furosemide. Today Sarah reports 2 kg weight gain, worse ankle swelling, moderate shortness of breath on exertion, and new orthopnoea. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Ask first about emergency severity right now—because new orthopnoea plus weight gain/edema could be worsening congestion, and we must rule out acute pulmonary oedema or shock urgently [UCG 4.1.4], [HF Algorithm].
+
+On the call, confirm:
+
+Is she severely breathless at rest or unable to speak full sentences?
+Any cough with frothy (possibly blood-stained) sputum?
+Does she have a home SpO₂ reading (and what is it)?
+Any chest pain, fainting, or new confusion? (red flags per HF algorithm) [HF Algorithm], [UCG 4.1.4]
+
+What does Sarah say to those questions, and does she have a home SpO₂ reading?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Sarah now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: “Breathing worse while sitting still” plus possible frothy sputum in a patient with HFrEF is concerning for acute pulmonary oedema, which needs immediate in-person assessment and treatment at HC4/Hospital level rather than continued home management by phone [UCG 4.1.4].
+
+Single next step (now): Arrange immediate transfer to the nearest facility that can give oxygen and IV/IM diuretics (HC4/Hospital), and keep her propped up sitting while transport is being organized [UCG 4.1.4].
+
+Escalation threshold (exact, per loaded UCG hypoxaemia guideline):
+
+If her SpO₂ is <90%, that is hypoxaemia and is an emergency—she needs urgent oxygen therapy and escalation [UCG 1.4].
+Even without an SpO₂ reading, if she has danger signs such as inability to talk in complete sentences, confusion/sleepiness/agitation, convulsions, features of severe respiratory distress, or signs of shock, treat as an emergency requiring oxygen and escalation [UCG 1.4].
+
+Important medication safety in remote care: giving an “extra dose” of furosemide or changing any of her HF medicines requires cardiologist confirmation before administration (even if pulmonary oedema is suspected). In UCG, acute pulmonary oedema management includes parenteral furosemide and high-concentration oxygen at facility level [UCG 4.1.4].
+
+Question to decide how fast to escalate: Does she have a home pulse oximeter—what is her SpO₂ right now, and can she speak full sentences at rest?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 1.4
+
+UCG 4.1.4
+
+UCG 5.2.9
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+Was this response helpful?
+
+👍
+
+👎

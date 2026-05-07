@@ -1,0 +1,134 @@
+smart_toy
+
+Ask first for red-flag severity right now to decide if he needs urgent referral/hospital care (acute pulmonary oedema, hypoxaemia, shock) rather than trying to adjust medicines over the phone. Worsening PND + rapid weight gain + swelling are classic HF congestion symptoms [HF Algorithm].
+
+On the call, ask Joseph these focused questions now:
+
+Breathing right now: “Are you breathless at rest, or only with walking? Can you speak full sentences?” (severe dyspnoea suggests pulmonary oedema) [UCG 4.1.4]
+Oxygen/BP if available at home: “Do you have a home BP reading and pulse today? Do you have an oximeter—what is the SpO₂?” (SpO₂ <90% is hypoxaemia and needs urgent attention) [UCG 1.4]
+Orthopnoea/PND details: “How many pillows are you using? How many times did you wake gasping last night?” [HF Algorithm]
+Chest pain / fainting / confusion: “Any chest pain, fainting, or new confusion today?” (HF red flags/possible ACS or instability) [HF Algorithm]
+Diuresis: “Since the swelling started, is your urine output less than usual?” (worsening congestion/renal perfusion concern)
+Trigger screen (HEART FAILED): “Any fever/cough (infection), fast/irregular heartbeat/palpitations (arrhythmia), missed meds, or salty meal/recent alcohol?” [HF Algorithm]
+Medication adherence + supply (critical in remote care): “Which HF medicines did you take in the last 2 days (names and doses), and how many tablets do you have left—especially furosemide?” [HF Algorithm]
+
+Before any medication change (including an extra dose of furosemide), this requires cardiologist confirmation before administration.
+
+What are Joseph’s answers to the first two items—is he breathless at rest, and does he have any home SpO₂/BP/pulse readings today?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+UCG 1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Joseph, a 76-year-old man with known HFrEF EF 35% taking enalapril, carvedilol, spironolactone and furosemide. Today Joseph reports 3 kg weight gain, worse ankle swelling, worsening breathlessness climbing one flight of steps, and waking at night gasping. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Ask first for red-flag severity right now to decide if he needs urgent referral/hospital care (acute pulmonary oedema, hypoxaemia, shock) rather than trying to adjust medicines over the phone. Worsening PND + rapid weight gain + swelling are classic HF congestion symptoms [HF Algorithm].
+
+On the call, ask Joseph these focused questions now:
+
+Breathing right now: “Are you breathless at rest, or only with walking? Can you speak full sentences?” (severe dyspnoea suggests pulmonary oedema) [UCG 4.1.4]
+Oxygen/BP if available at home: “Do you have a home BP reading and pulse today? Do you have an oximeter—what is the SpO₂?” (SpO₂ <90% is hypoxaemia and needs urgent attention) [UCG 1.4]
+Orthopnoea/PND details: “How many pillows are you using? How many times did you wake gasping last night?” [HF Algorithm]
+Chest pain / fainting / confusion: “Any chest pain, fainting, or new confusion today?” (HF red flags/possible ACS or instability) [HF Algorithm]
+Diuresis: “Since the swelling started, is your urine output less than usual?” (worsening congestion/renal perfusion concern)
+Trigger screen (HEART FAILED): “Any fever/cough (infection), fast/irregular heartbeat/palpitations (arrhythmia), missed meds, or salty meal/recent alcohol?” [HF Algorithm]
+Medication adherence + supply (critical in remote care): “Which HF medicines did you take in the last 2 days (names and doses), and how many tablets do you have left—especially furosemide?” [HF Algorithm]
+
+Before any medication change (including an extra dose of furosemide), this requires cardiologist confirmation before administration.
+
+What are Joseph’s answers to the first two items—is he breathless at rest, and does he have any home SpO₂/BP/pulse readings today?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+UCG 1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Joseph now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: Joseph’s report of breathlessness while sitting still with possible frothy sputum is concerning for acute pulmonary oedema, which needs immediate in-person assessment and treatment (oxygen + parenteral diuretic, monitoring) rather than phone-only management [UCG 4.1.4].
+
+Single next step (now): Arrange immediate emergency referral/transport to the nearest facility that can give oxygen and IV/IM furosemide (HCIV/Hospital level) while keeping him sitting upright as he waits/while in transit [UCG 4.1.4].
+Any medication change (including telling him to take an extra furosemide dose at home or holding any HF medicines) requires cardiologist confirmation before administration.
+
+Exact escalation threshold (apply on the call):
+
+If he has SpO₂ < 90% (home oximeter) → this is hypoxaemia (life-threatening) and oxygen therapy/urgent care is indicated [UCG 1.4].
+If he has danger signs even without a measured SpO₂ (e.g., unable to speak full sentences, severe difficulty breathing, confusion/sleepy/agitated, convulsions, or signs of shock) → treat as an emergency needing urgent escalation and oxygen [UCG 1.4].
+Presence of severe dyspnoea and cough with frothy blood-stained sputum fits the clinical picture of pulmonary oedema and should be managed as an acute emergency [UCG 4.1.4].
+
+To decide how urgent the referral needs to be (ambulance vs fastest available transport), what is Joseph’s current SpO₂ (if he has an oximeter) and can he speak in full sentences without stopping for breath?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.4
+
+UCG 4.1.3
+
+UCG 1.1.2
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎

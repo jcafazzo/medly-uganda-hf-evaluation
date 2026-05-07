@@ -1,0 +1,103 @@
+smart_toy
+
+John’s 3 kg weight gain + worsening ankle swelling + PND suggests possible fluid overload / worsening HF [HF Algorithm]. On the call, the single most important next step is to screen immediately for red-flag symptoms that would require urgent referral/hospital care (acute pulmonary oedema, shock, ACS, dangerous arrhythmia) [HF Algorithm], [UCG 4.1.4].
+
+Right now, ask him: “Are you severely short of breath at rest, unable to lie flat at all, coughing frothy/pink sputum, having chest pain, fainting/confusion, or do you have a home oxygen reading <90%?” [HF Algorithm], [UCG 4.1.4].
+
+What does John say to those red-flag questions (and does he have any home SpO₂/BP/HR reading today)?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for John, a 40-year-old man with known HFrEF EF 35% taking enalapril, carvedilol, spironolactone and furosemide. Today John reports 3 kg weight gain, worse ankle swelling, worsening breathlessness climbing one flight of steps, and waking at night gasping. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+John’s 3 kg weight gain + worsening ankle swelling + PND suggests possible fluid overload / worsening HF [HF Algorithm]. On the call, the single most important next step is to screen immediately for red-flag symptoms that would require urgent referral/hospital care (acute pulmonary oedema, shock, ACS, dangerous arrhythmia) [HF Algorithm], [UCG 4.1.4].
+
+Right now, ask him: “Are you severely short of breath at rest, unable to lie flat at all, coughing frothy/pink sputum, having chest pain, fainting/confusion, or do you have a home oxygen reading <90%?” [HF Algorithm], [UCG 4.1.4].
+
+What does John say to those red-flag questions (and does he have any home SpO₂/BP/HR reading today)?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+John now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: Worsening breathlessness at rest plus possible frothy sputum is concerning for acute pulmonary oedema, which requires immediate hospital-level care and physician/cardiologist involvement [UCG 4.1.4], [HF Algorithm].
+
+Single next step (on the phone): arrange emergency referral/transport NOW and keep him upright while waiting. In UCG, the immediate supportive measure is to prop the patient up in a sitting position in acute pulmonary oedema [UCG 4.1.4]. Because he is remote, advise him (or family) to keep him sitting upright while you activate transport/referral.
+
+Escalation threshold (use this on the call): Treat it as urgent escalation if he has features of pulmonary oedema such as severe dyspnoea/rapid breathing and cough with frothy blood-stained sputum [UCG 4.1.4]. From your update, he is already meeting “severe dyspnoea” (at rest) and may have frothy sputum—so threshold is met for urgent escalation.
+
+Before we talk about any medication changes (e.g., extra diuretic), this requires cardiologist confirmation before administration.
+
+One critical clarifier to determine how fast/where to send him: Can John speak in full sentences, or is he too breathless to talk (only 1–2 words at a time)?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.1.4
+
+UCG 5.1.2
+
+UCG 4.1.3
+
+UCG 1.1.2
+
+Was this response helpful?
+
+👍
+
+👎

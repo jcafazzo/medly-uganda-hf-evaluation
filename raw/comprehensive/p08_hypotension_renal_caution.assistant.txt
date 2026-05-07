@@ -1,0 +1,120 @@
+smart_toy
+
+⚠️ URGENT: BP 84/50 with cool peripheries, dizziness, rising creatinine and recent pulmonary oedema features is concerning for shock/poor perfusion (cardiogenic shock is a red flag in the HF Algorithm) and possible acute renal failure from compromised renal perfusion [HF Algorithm; UCG 7.1.1]. This needs immediate physician-led escalation and urgent referral.
+
+Single next step (do now): start high‑concentration oxygen (5 L/min) aiming SpO₂ >95% and keep her propped up sitting, while activating urgent referral/ambulance and calling the receiving medical officer/cardiologist [UCG 4.1.4].
+
+Because you are about to consider changing/holding HF medicines: per UCG, ACE inhibitors and beta blockers must be used with caution if SBP <90 mmHg and renal function should be monitored [UCG 4.1.3]. And any medication change (start/stop/hold/dose change, including IV diuretics/GTN/morphine or holding enalapril/carvedilol/spironolactone) requires cardiologist confirmation before administration.
+
+To guide the next stabilization decision (and what to tell the receiving team), what is her current SpO₂ on oxygen, heart rate, and respiratory rate right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+GDMT Tables
+
+UCG 7.1.1
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 7.1.3
+
+UCG 1.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Fatuma is a 36-year-old woman with chronic HFrEF taking enalapril, carvedilol, spironolactone and furosemide. The patient is dizzy, BP 84/50, cool peripheries, and creatinine has risen from baseline. What medication safety issues and escalation steps should I consider before changing HF medicines?
+
+smart_toy
+
+⚠️ URGENT: BP 84/50 with cool peripheries, dizziness, rising creatinine and recent pulmonary oedema features is concerning for shock/poor perfusion (cardiogenic shock is a red flag in the HF Algorithm) and possible acute renal failure from compromised renal perfusion [HF Algorithm; UCG 7.1.1]. This needs immediate physician-led escalation and urgent referral.
+
+Single next step (do now): start high‑concentration oxygen (5 L/min) aiming SpO₂ >95% and keep her propped up sitting, while activating urgent referral/ambulance and calling the receiving medical officer/cardiologist [UCG 4.1.4].
+
+Because you are about to consider changing/holding HF medicines: per UCG, ACE inhibitors and beta blockers must be used with caution if SBP <90 mmHg and renal function should be monitored [UCG 4.1.3]. And any medication change (start/stop/hold/dose change, including IV diuretics/GTN/morphine or holding enalapril/carvedilol/spironolactone) requires cardiologist confirmation before administration.
+
+To guide the next stabilization decision (and what to tell the receiving team), what is her current SpO₂ on oxygen, heart rate, and respiratory rate right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+GDMT Tables
+
+UCG 7.1.1
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 7.1.3
+
+UCG 1.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+A colleague suggests increasing carvedilol and enalapril because the patient has HFrEF. Is that safe with this BP and creatinine trend?
+
+smart_toy
+
+With SBP 84 mmHg + cool peripheries + rising creatinine, this is a red flag for cardiogenic shock/poor perfusion, so up‑titrating carvedilol or enalapril is not safe right now. The HF Algorithm flags cardiogenic shock as an urgent red flag [HF Algorithm]. UCG also cautions to use ACE inhibitors and beta blockers with caution when SBP <90 mmHg and to monitor renal function [UCG 4.1.3]. The GDMT tables specify SBP >90 mmHg as a hemodynamic requirement for enalapril and carvedilol up‑titration [GDMT Tables].
+
+Medication safety issue to flag immediately: avoid any up‑titration of:
+
+Enalapril (ACEi) in symptomatic hypotension and creatinine rise; GDMT tables also advise holding if creatinine rises >30% from baseline or symptomatic hypotension [GDMT Tables].
+Carvedilol (beta blocker): GDMT tables require SBP >90 and HR >55 for titration, and “do not uptitrate if decompensated/volume overloaded” [GDMT Tables].
+
+Any change (increase, decrease, holding, or giving extra acute meds) requires cardiologist/receiving-physician confirmation before administration.
+
+Single next step now (before changing any HF medicines): treat this as shock/unstable HF and escalate immediately to senior clinician/receiving hospital for urgent stabilization and monitored management (including labs/electrolytes, urine output, and causes/triggers) [HF Algorithm; UCG 7.1.1].
+
+To support the escalation call and decide if this looks more like cardiogenic shock vs hypovolaemia/sepsis, what are her heart rate, SpO₂, respiratory rate, and current urine output (ml/hr if catheterized) right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+GDMT Tables
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 7.1.1
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎

@@ -1,0 +1,111 @@
+smart_toy
+
+Ask first about immediate danger signs to decide whether she needs urgent referral for possible acute pulmonary oedema/cardiogenic shock (these are red flags in HF) [HF Algorithm]; pulmonary oedema red flags include severe dyspnoea/rapid breathing and frothy blood-stained sputum [UCG 4.1.4].
+
+On the call, can you confirm right now:
+
+Is she severely short of breath at rest, unable to speak full sentences, or breathing very fast?
+Any cough with frothy/pink sputum? [UCG 4.1.4]
+Any chest pain, fainting/syncope, new confusion, or “near-collapse”? (red flags) [HF Algorithm]
+If she has home readings: what are her BP, pulse, and SpO₂ today, and what is her current weight vs her usual? [HF Algorithm]
+
+What does she say to those danger-sign questions, and do you have any home BP/pulse/SpO₂ readings?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Fatuma, a 59-year-old woman with known HFrEF EF 28% taking enalapril, carvedilol, spironolactone and furosemide. Today Fatuma reports 1.5 kg weight gain, worse ankle swelling, breathlessness when walking to the latrine, and needing three pillows. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Ask first about immediate danger signs to decide whether she needs urgent referral for possible acute pulmonary oedema/cardiogenic shock (these are red flags in HF) [HF Algorithm]; pulmonary oedema red flags include severe dyspnoea/rapid breathing and frothy blood-stained sputum [UCG 4.1.4].
+
+On the call, can you confirm right now:
+
+Is she severely short of breath at rest, unable to speak full sentences, or breathing very fast?
+Any cough with frothy/pink sputum? [UCG 4.1.4]
+Any chest pain, fainting/syncope, new confusion, or “near-collapse”? (red flags) [HF Algorithm]
+If she has home readings: what are her BP, pulse, and SpO₂ today, and what is her current weight vs her usual? [HF Algorithm]
+
+What does she say to those danger-sign questions, and do you have any home BP/pulse/SpO₂ readings?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Fatuma now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: If Fatuma is now worse while sitting still and has cough with frothy/blood-stained sputum, that is consistent with acute pulmonary oedema, which requires immediate in-person emergency care (she should not be managed remotely) [UCG 4.1.4].
+
+Single next step (now): arrange immediate transfer/ambulance to the nearest HC4/Hospital for oxygen and acute management [UCG 4.1.4]. While you are arranging this, keep her sitting upright (propped up) and advise family to avoid exertion during transfer [UCG 4.1.4].
+
+Exact escalation threshold (remote): escalate immediately if she has the pulmonary oedema danger features listed in UCG—severe dyspnoea/rapid breathing/breathlessness or frothy blood-stained sputum [UCG 4.1.4]. Also escalate if she has any hypoxaemia danger signs (e.g., cannot talk in full sentences, confusion, extreme weakness) or SpO₂ <90% if a home oximeter reading is available [UCG 1.4].
+
+Before you end the call to arrange transfer, can you confirm one key triage point: is she able to speak full sentences, and does she have a home SpO₂ reading (or any BP/pulse reading) right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 5.1.2
+
+UCG 1.4
+
+UCG 4.1.3
+
+UCG 5.1.1.1
+
+Was this response helpful?
+
+👍
+
+👎

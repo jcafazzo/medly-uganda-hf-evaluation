@@ -1,0 +1,109 @@
+smart_toy
+
+⚠️ URGENT (in-person): Peter has SpO₂ 87% (<90%) with severe dyspnoea/tachypnoea and likely frothy sputum, consistent with acute pulmonary oedema plus documented hypoxaemia—this is an emergency requiring immediate oxygen therapy and acute pulmonary oedema management at HC4/Hospital level [UCG 1.4; UCG 4.1.4].
+
+Single next step (do now): Start high-concentration oxygen at 5 L/min and titrate with a target SpO₂ >95% in pulmonary oedema [UCG 4.1.4]. (Hypoxaemia itself is an indication for oxygen because SpO₂ <90% [UCG 1.4].)
+
+Before moving to the next acute pulmonary oedema medication step, one key check:
+
+After 2–3 minutes on oxygen, what is his repeat SpO₂ and is he able to speak in full sentences? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 5.1.2
+
+UCG 1.4
+
+UCG 4.1.3
+
+UCG 5.1.1.1
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+In clinic: Peter, a 38-year-old man with known or suspected heart failure, has severe breathlessness, rapid breathing, frothy blood-stained sputum, SpO2 87%, BP 145/90, and basal crepitations. What immediate management is recommended in Uganda guidelines?
+
+smart_toy
+
+⚠️ URGENT (in-person): Peter has SpO₂ 87% (<90%) with severe dyspnoea/tachypnoea and likely frothy sputum, consistent with acute pulmonary oedema plus documented hypoxaemia—this is an emergency requiring immediate oxygen therapy and acute pulmonary oedema management at HC4/Hospital level [UCG 1.4; UCG 4.1.4].
+
+Single next step (do now): Start high-concentration oxygen at 5 L/min and titrate with a target SpO₂ >95% in pulmonary oedema [UCG 4.1.4]. (Hypoxaemia itself is an indication for oxygen because SpO₂ <90% [UCG 1.4].)
+
+Before moving to the next acute pulmonary oedema medication step, one key check:
+
+After 2–3 minutes on oxygen, what is his repeat SpO₂ and is he able to speak in full sentences? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 5.1.2
+
+UCG 1.4
+
+UCG 4.1.3
+
+UCG 5.1.1.1
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+We have oxygen, furosemide, GTN, morphine, and a referral ambulance, but no onsite cardiologist. What should be done first and what should be prepared for referral?
+
+smart_toy
+
+⚠️ URGENT: This is acute pulmonary oedema with hypoxaemia (SpO₂ 87% < 90%) and frothy blood‑stained sputum—needs immediate stabilisation at HC4/Hospital level and urgent referral/transfer if higher-level care is needed [UCG 1.4; UCG 4.1.4].
+
+First action (do now): put him upright (propped sitting) and start high‑concentration oxygen at 5 L/min, aiming for SpO₂ > 95% [UCG 4.1.4]. (SpO₂ < 90% is an absolute indication for oxygen) [UCG 1.4].
+
+Before I advise the single next “prepare for referral” action, what oxygen delivery device are you using right now (nasal cannula vs simple face mask vs mask with reservoir), and what is his SpO₂ after 2–3 minutes on oxygen? [UCG 1.4]
+
+(Separately: any IV/IM furosemide or GTN dosing is a medication change—this requires cardiologist confirmation before administration, even if you have the drugs available.)
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 1.4
+
+UCG 4.1.4
+
+UCG 1.1.4
+
+UCG 4.1.3
+
+UCG 1.1.2
+
+Was this response helpful?
+
+👍
+
+👎

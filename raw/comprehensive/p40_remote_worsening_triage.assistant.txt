@@ -1,0 +1,126 @@
+smart_toy
+
+Given the 4 kg weight gain + worsening ankle swelling + breathlessness/orthopnoea + reduced urine output, this sounds like significant fluid overload/possible decompensated HF, with risk of acute pulmonary oedema if symptoms are severe [HF Algorithm; UCG 4.1.3; UCG 4.1.4]. On the call, the next thing is to screen immediately for danger signs that require urgent hospital review today.
+
+Ask her these (patient self-report):
+
+“Right now, can you speak in full sentences, or are you too breathless to talk?” (severe dyspnoea) [UCG 1.4]
+“Do you have chest pain, fainting, or new confusion/extreme weakness?” (red flags) [HF Algorithm; UCG 1.4]
+“Are you coughing up frothy or blood-stained sputum?” (suggests pulmonary oedema) [UCG 4.1.4]
+“Do you have a home oxygen reading (SpO₂)? If yes, what is it?” (hypoxaemia if <90%) [UCG 1.4]
+“Do you have a home BP and pulse reading right now?” (hypotension/tachycardia concern) [HF Algorithm]
+
+What are her answers to these danger-sign questions—especially ability to speak, SpO₂ (if available), and any chest pain/confusion?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 1.1.2
+
+UCG 4.1.4
+
+UCG 1.1.4
+
+UCG 4.1.3
+
+UCG 1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Rebecca, a 72-year-old woman with known HFrEF EF 32% taking enalapril, carvedilol, spironolactone and furosemide. Today Rebecca reports 4 kg weight gain, worse ankle swelling, breathlessness and reduced urine output, and sleeping upright in a chair. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Given the 4 kg weight gain + worsening ankle swelling + breathlessness/orthopnoea + reduced urine output, this sounds like significant fluid overload/possible decompensated HF, with risk of acute pulmonary oedema if symptoms are severe [HF Algorithm; UCG 4.1.3; UCG 4.1.4]. On the call, the next thing is to screen immediately for danger signs that require urgent hospital review today.
+
+Ask her these (patient self-report):
+
+“Right now, can you speak in full sentences, or are you too breathless to talk?” (severe dyspnoea) [UCG 1.4]
+“Do you have chest pain, fainting, or new confusion/extreme weakness?” (red flags) [HF Algorithm; UCG 1.4]
+“Are you coughing up frothy or blood-stained sputum?” (suggests pulmonary oedema) [UCG 4.1.4]
+“Do you have a home oxygen reading (SpO₂)? If yes, what is it?” (hypoxaemia if <90%) [UCG 1.4]
+“Do you have a home BP and pulse reading right now?” (hypotension/tachycardia concern) [HF Algorithm]
+
+What are her answers to these danger-sign questions—especially ability to speak, SpO₂ (if available), and any chest pain/confusion?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 1.1.2
+
+UCG 4.1.4
+
+UCG 1.1.4
+
+UCG 4.1.3
+
+UCG 1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Rebecca now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: “Breathing worse while sitting still” plus “possible cough with frothy sputum” in a known HFrEF patient is highly concerning for acute pulmonary oedema and needs same-day emergency assessment in hospital/HC4 rather than continued home management [UCG 4.1.4].
+
+Single next step (now): arrange immediate referral/transport to the nearest facility that can give oxygen and parenteral diuretics (HC4 or hospital). While arranging that, keep her propped up sitting (not lying flat) [UCG 4.1.4].
+Any medication change (including advising an extra diuretic dose at home) requires cardiologist confirmation before administration.
+
+Exact escalation threshold (remote triage): treat as an emergency and escalate immediately if she has danger signs of hypoxaemia/respiratory distress, especially inability to talk in full sentences, confusion/extreme weakness, or SpO₂ < 90% if she has a pulse oximeter [UCG 1.4]. Also, frothy/blood-stained sputum is a clinical feature of pulmonary oedema and supports urgent escalation [UCG 4.1.4].
+
+To confirm the escalation level and communicate clearly to the receiving unit, what does she report right now about:
+
+Can she speak in full sentences, or only a few words? [UCG 1.4]
+Does she have a home SpO₂ reading (and value), or none available? [UCG 1.4]
+Is there frothy/blood-stained sputum for sure, or just a wet cough? [UCG 4.1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.4
+
+UCG 5.1.2
+
+UCG 4.1.3
+
+UCG 1.1.2
+
+Was this response helpful?
+
+👍
+
+👎

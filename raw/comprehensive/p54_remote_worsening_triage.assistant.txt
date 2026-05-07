@@ -1,0 +1,109 @@
+smart_toy
+
+Amina’s report (rapid weight gain + worsening edema + worse orthopnoea/new dyspnoea) suggests fluid overload/decompensation, so the next thing to clarify on the call is whether she has any emergency “red flag” features that would require urgent referral for possible acute pulmonary oedema or other high-risk deterioration [HF Algorithm; UCG 4.1.4].
+
+On the call, ask her right now:
+
+Is she severely short of breath at rest, unable to speak full sentences, or needing to sit upright to breathe? Any waking at night gasping (PND)? [HF Algorithm]
+Any cough with frothy/pink sputum? [UCG 4.1.4]
+Any chest pain, fainting/near-fainting, or new fast/irregular pounding heartbeat/palpitations? (These are red flags/possible triggers like ischemia or arrhythmia) [HF Algorithm]
+Does she have a home BP reading or pulse rate today, and (if available) SpO₂? [HF Algorithm]
+
+What does she answer to these red-flag questions, and do you have any home BP/pulse/SpO₂ readings?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Amina, a 76-year-old woman with known HFrEF EF 40% taking enalapril, carvedilol, spironolactone and furosemide. Today Amina reports 2.5 kg weight gain, worse ankle swelling, new shortness of breath with household chores, and orthopnoea worse than usual. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Amina’s report (rapid weight gain + worsening edema + worse orthopnoea/new dyspnoea) suggests fluid overload/decompensation, so the next thing to clarify on the call is whether she has any emergency “red flag” features that would require urgent referral for possible acute pulmonary oedema or other high-risk deterioration [HF Algorithm; UCG 4.1.4].
+
+On the call, ask her right now:
+
+Is she severely short of breath at rest, unable to speak full sentences, or needing to sit upright to breathe? Any waking at night gasping (PND)? [HF Algorithm]
+Any cough with frothy/pink sputum? [UCG 4.1.4]
+Any chest pain, fainting/near-fainting, or new fast/irregular pounding heartbeat/palpitations? (These are red flags/possible triggers like ischemia or arrhythmia) [HF Algorithm]
+Does she have a home BP reading or pulse rate today, and (if available) SpO₂? [HF Algorithm]
+
+What does she answer to these red-flag questions, and do you have any home BP/pulse/SpO₂ readings?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Amina now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: Worsening breathlessness even while sitting still plus possible cough with frothy sputum is concerning for acute pulmonary oedema, which requires same-day emergency evaluation at a facility (HC4/Hospital) rather than continued home management [UCG 4.1.4].
+
+Escalation threshold (exact): if she has SpO₂ < 90% (hypoxaemia) or danger signs of severe respiratory distress (e.g., inability to talk in full sentences, marked difficulty breathing, extreme weakness, confusion/sleepy/agitated), this is an emergency and she needs immediate referral/ambulance and oxygen when she arrives [UCG 1.4].
+
+Single next step on the call (right now): determine whether she meets the hypoxaemia/danger-sign threshold by asking for current home SpO₂ (if she has an oximeter) and screening for the danger signs above [UCG 1.4].
+
+Do you know her SpO₂ reading right now, and can she speak full sentences without stopping for breath?
+
+(Once we confirm severity, we can align the referral urgency and what the receiving unit should prepare—oxygen, sitting upright positioning, and IV diuretic options are facility-based per UCG [UCG 4.1.4], but any medication change (including advising an extra diuretic dose at home) requires cardiologist confirmation before administration.)
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 5.2.9.3
+
+UCG 1.4
+
+UCG 4.1.4
+
+UCG 5.2.9
+
+UCG 1.1.4
+
+Was this response helpful?
+
+👍
+
+👎

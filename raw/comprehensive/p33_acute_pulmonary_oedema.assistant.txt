@@ -1,0 +1,115 @@
+smart_toy
+
+⚠️ URGENT (in-clinic): Grace is hypoxaemic (SpO₂ 89%) and has features consistent with acute pulmonary oedema (severe dyspnoea, tachypnoea, frothy blood-stained sputum, basal crepitations) [UCG 1.4] [UCG 4.1.4]. This requires immediate emergency management at HC4/Hospital level and senior/physician/cardiologist involvement.
+
+Single next step (do now):
+Start high-concentration oxygen—UCG pulmonary oedema guidance says start at 5 L/min and aim for SpO₂ >95% [UCG 4.1.4]. Since her SpO₂ is <90% (hypoxaemia), oxygen is indicated urgently [UCG 1.4].
+
+Any diuretic/nitrate/opioid dose decisions are medication changes, so this change requires cardiologist confirmation before administration (e.g., IM/IV furosemide per UCG pulmonary oedema regimen) [UCG 4.1.4].
+
+Question to guide the next escalation step (oxygen device choice):
+After starting O₂ at 5 L/min, what is her repeat SpO₂ after ~2–3 minutes, and is she in severe respiratory distress (unable to speak full sentences, accessory muscle use, central cyanosis, signs of shock)? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.4
+
+UCG 5.2.9.3
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+In clinic: Grace, a 70-year-old woman with known or suspected heart failure, has severe breathlessness, rapid breathing, frothy blood-stained sputum, SpO2 89%, BP 148/92, and basal crepitations. What immediate management is recommended in Uganda guidelines?
+
+smart_toy
+
+⚠️ URGENT (in-clinic): Grace is hypoxaemic (SpO₂ 89%) and has features consistent with acute pulmonary oedema (severe dyspnoea, tachypnoea, frothy blood-stained sputum, basal crepitations) [UCG 1.4] [UCG 4.1.4]. This requires immediate emergency management at HC4/Hospital level and senior/physician/cardiologist involvement.
+
+Single next step (do now):
+Start high-concentration oxygen—UCG pulmonary oedema guidance says start at 5 L/min and aim for SpO₂ >95% [UCG 4.1.4]. Since her SpO₂ is <90% (hypoxaemia), oxygen is indicated urgently [UCG 1.4].
+
+Any diuretic/nitrate/opioid dose decisions are medication changes, so this change requires cardiologist confirmation before administration (e.g., IM/IV furosemide per UCG pulmonary oedema regimen) [UCG 4.1.4].
+
+Question to guide the next escalation step (oxygen device choice):
+After starting O₂ at 5 L/min, what is her repeat SpO₂ after ~2–3 minutes, and is she in severe respiratory distress (unable to speak full sentences, accessory muscle use, central cyanosis, signs of shock)? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.4
+
+UCG 5.2.9.3
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+We have oxygen, furosemide, GTN, morphine, and a referral ambulance, but no onsite cardiologist. What should be done first and what should be prepared for referral?
+
+smart_toy
+
+⚠️ URGENT: This is acute pulmonary oedema with hypoxaemia (SpO₂ 89% plus frothy blood-stained sputum, severe dyspnoea, basal crepitations). Immediate stabilization is required at HC4/Hospital level [UCG 4.1.4] [UCG 1.4].
+
+First action (do immediately):
+Start high-concentration oxygen and titrate to response—UCG recommends starting oxygen (e.g., 5 L/min) and aiming for SpO₂ >95% in pulmonary oedema [UCG 4.1.4]. Because her SpO₂ is <90%, she meets the UCG definition of hypoxaemia and needs oxygen urgently [UCG 1.4]. If SpO₂ remains <90%, escalate the delivery device/flow per the UCG oxygen escalation pathway (nasal prongs → simple face mask → reservoir mask) [UCG 1.4].
+
+Because you also have furosemide/GTN/morphine available: these are part of the UCG acute pulmonary oedema regimen, but any medication administration or dose change requires cardiologist confirmation before administration (or immediate physician lead if no cardiologist on-site), especially for GTN and morphine [UCG 4.1.4].
+
+What I need from you to choose the next immediate stabilization step and what to prepare for referral:
+After starting oxygen, what is her repeat SpO₂ after 2–3 minutes, and which delivery device/flow are you using right now (nasal prongs, simple mask, or reservoir mask; L/min)? [UCG 1.4] [UCG 4.1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 1.4
+
+UCG 4.1.4
+
+UCG 1.1.4
+
+UCG 4.1.3
+
+UCG 1.1.4.1
+
+Was this response helpful?
+
+👍
+
+👎

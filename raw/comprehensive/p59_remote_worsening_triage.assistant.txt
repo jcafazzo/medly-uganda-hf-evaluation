@@ -1,0 +1,147 @@
+smart_toy
+
+Ask questions to (1) rule out emergency decompensation (pulmonary oedema/hypoxaemia/shock/ACS/arrhythmia) and (2) identify triggers + missed meds (HEART FAILED), since his weight gain, oedema, worsening orthopnoea and exertional dyspnoea fit fluid overload symptoms of HF [HF Algorithm].
+
+On this call, ask:
+
+Breathing right now (severity): “Are you short of breath while resting or when talking? Can you speak full sentences?” (worsening dyspnoea/orthopnoea are key HF symptoms) [HF Algorithm]
+Orthopnoea/PND details: “How many pillows are you sleeping on now? Are you waking up at night suddenly short of breath?” [HF Algorithm]
+Home oxygen reading if available: “Do you have a pulse oximeter at home—what is your SpO₂ right now?” (SpO₂ <90% is hypoxaemia and needs urgent care) [UCG 1.4]
+Chest pain / pressure: “Any chest pain, tightness, sweating, or pain going to the arm/jaw?” (red flag—possible ischemia trigger) [HF Algorithm]
+Dizziness/fainting/confusion: “Any fainting, severe dizziness, confusion, or extreme weakness today?” (red flags for poor perfusion) [HF Algorithm]
+Possible fast/irregular heartbeat: “Have you felt your heart racing or beating irregularly today?” (arrhythmia can trigger HF worsening) [HF Algorithm]
+Swelling/weight trend: “Since when did the swelling start, and has the weight been rising over how many days?” (weight gain + ankle oedema are key HF congestion features) [HF Algorithm]
+Urine output response to diuretic: “After taking your furosemide, are you passing more urine than usual, the same, or less?” (helps judge diuretic response) [HF Algorithm]
+Medication adherence (names + doses): “Tell me exactly which heart medicines you took yesterday and today (names and doses). Have you missed any doses in the last week?” (“Failure to take meds” is a common trigger) [HF Algorithm]
+Medication supply check (critical in remote care): “How many tablets do you have left of furosemide, enalapril, carvedilol, and spironolactone? Any difficulty getting refills?” [HF Algorithm]
+Diet/fluid trigger: “In the last few days, did you take more salty foods, packaged foods, or drink more fluids/alcohol than usual?” (dietary indiscretion is a trigger) [HF Algorithm]
+Infection/lung trigger: “Any fever, cough, chest infection symptoms, or worsening wheeze?” (infection/lung problems can precipitate HF) [HF Algorithm]
+Blood pressure/heart rate from home machine (if available): “Do you have a home BP machine—what were your most recent BP and pulse readings?” (HF assessment includes vitals) [HF Algorithm]
+
+First decision point: what is his current SpO₂ (if available), ability to speak, and whether he has chest pain or confusion—any of these would push toward urgent referral for in-person assessment and oxygen if hypoxaemic [UCG 1.4] and evaluation for acute pulmonary oedema/shock [HF Algorithm].
+
+What does David report for: (a) breathlessness at rest/talking, (b) SpO₂ if he can measure it, and (c) any chest pain or fainting?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+UCG 1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for David, a 64-year-old man with known HFrEF EF 40% taking enalapril, carvedilol, spironolactone and furosemide. Today David reports 2.5 kg weight gain, worse ankle swelling, new shortness of breath with household chores, and orthopnoea worse than usual. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Ask questions to (1) rule out emergency decompensation (pulmonary oedema/hypoxaemia/shock/ACS/arrhythmia) and (2) identify triggers + missed meds (HEART FAILED), since his weight gain, oedema, worsening orthopnoea and exertional dyspnoea fit fluid overload symptoms of HF [HF Algorithm].
+
+On this call, ask:
+
+Breathing right now (severity): “Are you short of breath while resting or when talking? Can you speak full sentences?” (worsening dyspnoea/orthopnoea are key HF symptoms) [HF Algorithm]
+Orthopnoea/PND details: “How many pillows are you sleeping on now? Are you waking up at night suddenly short of breath?” [HF Algorithm]
+Home oxygen reading if available: “Do you have a pulse oximeter at home—what is your SpO₂ right now?” (SpO₂ <90% is hypoxaemia and needs urgent care) [UCG 1.4]
+Chest pain / pressure: “Any chest pain, tightness, sweating, or pain going to the arm/jaw?” (red flag—possible ischemia trigger) [HF Algorithm]
+Dizziness/fainting/confusion: “Any fainting, severe dizziness, confusion, or extreme weakness today?” (red flags for poor perfusion) [HF Algorithm]
+Possible fast/irregular heartbeat: “Have you felt your heart racing or beating irregularly today?” (arrhythmia can trigger HF worsening) [HF Algorithm]
+Swelling/weight trend: “Since when did the swelling start, and has the weight been rising over how many days?” (weight gain + ankle oedema are key HF congestion features) [HF Algorithm]
+Urine output response to diuretic: “After taking your furosemide, are you passing more urine than usual, the same, or less?” (helps judge diuretic response) [HF Algorithm]
+Medication adherence (names + doses): “Tell me exactly which heart medicines you took yesterday and today (names and doses). Have you missed any doses in the last week?” (“Failure to take meds” is a common trigger) [HF Algorithm]
+Medication supply check (critical in remote care): “How many tablets do you have left of furosemide, enalapril, carvedilol, and spironolactone? Any difficulty getting refills?” [HF Algorithm]
+Diet/fluid trigger: “In the last few days, did you take more salty foods, packaged foods, or drink more fluids/alcohol than usual?” (dietary indiscretion is a trigger) [HF Algorithm]
+Infection/lung trigger: “Any fever, cough, chest infection symptoms, or worsening wheeze?” (infection/lung problems can precipitate HF) [HF Algorithm]
+Blood pressure/heart rate from home machine (if available): “Do you have a home BP machine—what were your most recent BP and pulse readings?” (HF assessment includes vitals) [HF Algorithm]
+
+First decision point: what is his current SpO₂ (if available), ability to speak, and whether he has chest pain or confusion—any of these would push toward urgent referral for in-person assessment and oxygen if hypoxaemic [UCG 1.4] and evaluation for acute pulmonary oedema/shock [HF Algorithm].
+
+What does David report for: (a) breathlessness at rest/talking, (b) SpO₂ if he can measure it, and (c) any chest pain or fainting?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+UCG 1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+David now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: Worsening breathlessness at rest plus possible cough with frothy sputum is concerning for acute pulmonary oedema, which requires immediate in-person emergency assessment and treatment (oxygen, parenteral diuretic, etc.) rather than continued remote management [UCG 4.1.4]. Acute pulmonary oedema is also listed among HF red flags needing urgent attention [HF Algorithm].
+
+Single next step (now, on the phone): arrange immediate referral/transport to the nearest facility able to give oxygen and IV/IM diuretics (HC4/Hospital), and escalate to the cardiologist/doctor urgently while the patient is en route [UCG 4.1.4].
+
+Because this may lead to medication changes (e.g., urgent parenteral diuretic/nitrates), this requires cardiologist confirmation before administration.
+
+Exact escalation threshold to apply (remote triage): treat as emergency referral now if there is dyspnoea at rest or frothy (possibly blood-stained) sputum, because these are clinical features of pulmonary oedema in UCG [UCG 4.1.4]. (In addition, per program safety, any SpO₂ < 90% would also be an immediate emergency threshold.)
+
+To complete the handover safely, what does he report right now about:
+
+Do you have a home SpO₂ reading (pulse oximeter), and if yes what is it?
+Can he speak in full sentences without stopping for breath?
+Is there pink/frothy sputum or just a wet cough?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎

@@ -1,0 +1,133 @@
+smart_toy
+
+Peter’s rapid 4 kg weight gain + worsening swelling + orthopnea + reduced urine output strongly suggests fluid overload/acute decompensation, and the most urgent thing on the call is to screen for danger signs that require immediate referral/admission (e.g., severe hypoxaemia/acute pulmonary oedema/shock) [HF Algorithm; UCG 4.1.3; UCG 4.1.4; UCG 1.4].
+
+On this call, ask these (and document the answers):
+
+Breathing severity right now: Is he breathless at rest? Can he speak full sentences, or only a few words? Any cough with frothy pink sputum? [UCG 4.1.4; UCG 1.4]
+Oxygen status (if he has a pulse oximeter): What is his SpO₂ right now? (Any SpO₂ <90% is dangerous.) [UCG 1.4]
+Circulation/perfusion red flags: Any fainting, confusion, extreme weakness, cold sweaty skin, or very low home BP if available? [HF Algorithm (red flags); UCG 1.1.2]
+Chest pain / new palpitations: Any chest pain or new fast/irregular heartbeat (possible ischemia/arrhythmia trigger)? [HF Algorithm (red flags/triggers)]
+Medication adherence & supply (key trigger): Has he missed any doses in the last week? How many tablets are left for furosemide, enalapril, carvedilol, spironolactone? Any recent change in how he takes them? [HF Algorithm (HEART FAILED—Failure to take meds)]
+Diet/fluid trigger: Any recent high-salt meals or increased fluid intake? [HF Algorithm (Dietary indiscretion)]
+Infection trigger: Fever, cough, urinary symptoms, or other infection symptoms? [HF Algorithm (Infection)]
+Recent home vitals if available: Latest BP, pulse, weight trend over the last 3–7 days. [HF Algorithm (vitals); UCG 4.1.3 (monitoring)]
+
+One key decision point: does he have a current SpO₂ reading and/or a home BP reading right now? If yes, what are the numbers?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+UCG 1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Peter, a 60-year-old man with known HFrEF EF 32% taking enalapril, carvedilol, spironolactone and furosemide. Today Peter reports 4 kg weight gain, worse ankle swelling, breathlessness and reduced urine output, and sleeping upright in a chair. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Peter’s rapid 4 kg weight gain + worsening swelling + orthopnea + reduced urine output strongly suggests fluid overload/acute decompensation, and the most urgent thing on the call is to screen for danger signs that require immediate referral/admission (e.g., severe hypoxaemia/acute pulmonary oedema/shock) [HF Algorithm; UCG 4.1.3; UCG 4.1.4; UCG 1.4].
+
+On this call, ask these (and document the answers):
+
+Breathing severity right now: Is he breathless at rest? Can he speak full sentences, or only a few words? Any cough with frothy pink sputum? [UCG 4.1.4; UCG 1.4]
+Oxygen status (if he has a pulse oximeter): What is his SpO₂ right now? (Any SpO₂ <90% is dangerous.) [UCG 1.4]
+Circulation/perfusion red flags: Any fainting, confusion, extreme weakness, cold sweaty skin, or very low home BP if available? [HF Algorithm (red flags); UCG 1.1.2]
+Chest pain / new palpitations: Any chest pain or new fast/irregular heartbeat (possible ischemia/arrhythmia trigger)? [HF Algorithm (red flags/triggers)]
+Medication adherence & supply (key trigger): Has he missed any doses in the last week? How many tablets are left for furosemide, enalapril, carvedilol, spironolactone? Any recent change in how he takes them? [HF Algorithm (HEART FAILED—Failure to take meds)]
+Diet/fluid trigger: Any recent high-salt meals or increased fluid intake? [HF Algorithm (Dietary indiscretion)]
+Infection trigger: Fever, cough, urinary symptoms, or other infection symptoms? [HF Algorithm (Infection)]
+Recent home vitals if available: Latest BP, pulse, weight trend over the last 3–7 days. [HF Algorithm (vitals); UCG 4.1.3 (monitoring)]
+
+One key decision point: does he have a current SpO₂ reading and/or a home BP reading right now? If yes, what are the numbers?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+UCG 1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Peter now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: Breathlessness at rest plus possible frothy (blood-stained) sputum is concerning for acute pulmonary oedema, which needs immediate hospital-level care rather than ongoing home management by phone [UCG 4.1.4]. Hypoxaemia (SpO₂ < 90%) is a life‑threatening emergency and is an automatic escalation threshold [UCG 1.4].
+
+Single next step (right now on the call): ask him to check his oxygen saturation (SpO₂) immediately if he has a pulse oximeter, and tell you the number (and whether he can speak full sentences). This directly determines whether he meets the hypoxaemia emergency threshold [UCG 1.4].
+
+Exact escalation threshold (from UCG):
+
+SpO₂ < 90% = hypoxaemia → emergency escalation/urgent referral [UCG 1.4].
+Even without a number, danger signs like inability to talk in complete sentences, confusion, extreme weakness, signs of shock, or severe respiratory distress warrant emergency oxygen/urgent referral irrespective of documented SpO₂ [UCG 1.4].
+Clinical picture consistent with acute pulmonary oedema (severe dyspnoea ± frothy blood-stained sputum) warrants urgent facility care for oxygen and acute management [UCG 4.1.4].
+
+Medication note (because you may be considering it): Acute pulmonary oedema management in the UCG includes high-concentration oxygen and parenteral furosemide in facility care [UCG 4.1.4]. Any extra dose or dose change of his home furosemide (or any HF medicine) requires cardiologist confirmation before administration.
+
+What is Peter’s current SpO₂ (if available), and can he speak full sentences without pausing for breath?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.4
+
+UCG 5.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+Was this response helpful?
+
+👍
+
+👎

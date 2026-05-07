@@ -1,0 +1,141 @@
+smart_toy
+
+Rebecca’s 4 kg weight gain + worsening swelling + orthopnea + breathlessness with reduced urine output suggests significant fluid overload / possible decompensated HF, and you also need to screen for hypoxaemia and triggers (including missed meds) urgently [HF Algorithm] [UCG 1.4].
+
+Since you’re on the phone (remote), ask these targeted questions next:
+
+Breathing severity right now (danger signs): Can you speak full sentences? Any severe difficulty breathing, confusion, or extreme weakness? [UCG 1.4]
+Oxygen status (if she has a pulse oximeter): What is your SpO₂ reading now (and at rest)? If <90% this is hypoxaemia and an emergency [UCG 1.4].
+Orthopnea/PND detail: How many pillows are you using / are you waking up at night gasping for air? [HF Algorithm]
+Chest pain / pressure or fainting: Any chest pain, new palpitations, or syncope (could suggest ischemia/arrhythmia trigger)? [HF Algorithm]
+Urine output: Roughly how many times did you pass urine in the last 24 hours, and is it much less than usual? (oliguria can occur with HF/renal dysfunction) [UCG 7.1.1].
+Diuretic response: After taking furosemide, does urine increase at all? What time did you last take it? (helps assess diuretic effect) [HF Algorithm].
+Medication adherence (critical in Medly): What HF medicines did you take yesterday and today—confirm names and doses (enalapril, carvedilol, spironolactone, furosemide)? Any missed doses in the last week? [HF Algorithm].
+Medication supply: How many tablets are left for each medicine—especially furosemide and the others? Any days you couldn’t take them because they ran out? [HF Algorithm].
+Trigger screen (HEART FAILED): Any fever/cough/urinary symptoms (infection), high BP readings, recent high-salt meal, or other new illness? [HF Algorithm].
+
+Before discussing any dose increase (e.g., extra furosemide), this requires cardiologist confirmation before administration.
+
+What is her SpO₂ (or if no oximeter: can she speak full sentences without pausing for breath) and does she have chest pain or confusion right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 7.1.1
+
+UCG 1.4
+
+UCG 4.1.4
+
+UCG 7.1.3
+
+UCG 1.1.2
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case for Rebecca, a 71-year-old woman with known HFrEF EF 32% taking enalapril, carvedilol, spironolactone and furosemide. Today Rebecca reports 4 kg weight gain, worse ankle swelling, breathlessness and reduced urine output, and sleeping upright in a chair. As the clinician on the call, what should I ask next?
+
+smart_toy
+
+Rebecca’s 4 kg weight gain + worsening swelling + orthopnea + breathlessness with reduced urine output suggests significant fluid overload / possible decompensated HF, and you also need to screen for hypoxaemia and triggers (including missed meds) urgently [HF Algorithm] [UCG 1.4].
+
+Since you’re on the phone (remote), ask these targeted questions next:
+
+Breathing severity right now (danger signs): Can you speak full sentences? Any severe difficulty breathing, confusion, or extreme weakness? [UCG 1.4]
+Oxygen status (if she has a pulse oximeter): What is your SpO₂ reading now (and at rest)? If <90% this is hypoxaemia and an emergency [UCG 1.4].
+Orthopnea/PND detail: How many pillows are you using / are you waking up at night gasping for air? [HF Algorithm]
+Chest pain / pressure or fainting: Any chest pain, new palpitations, or syncope (could suggest ischemia/arrhythmia trigger)? [HF Algorithm]
+Urine output: Roughly how many times did you pass urine in the last 24 hours, and is it much less than usual? (oliguria can occur with HF/renal dysfunction) [UCG 7.1.1].
+Diuretic response: After taking furosemide, does urine increase at all? What time did you last take it? (helps assess diuretic effect) [HF Algorithm].
+Medication adherence (critical in Medly): What HF medicines did you take yesterday and today—confirm names and doses (enalapril, carvedilol, spironolactone, furosemide)? Any missed doses in the last week? [HF Algorithm].
+Medication supply: How many tablets are left for each medicine—especially furosemide and the others? Any days you couldn’t take them because they ran out? [HF Algorithm].
+Trigger screen (HEART FAILED): Any fever/cough/urinary symptoms (infection), high BP readings, recent high-salt meal, or other new illness? [HF Algorithm].
+
+Before discussing any dose increase (e.g., extra furosemide), this requires cardiologist confirmation before administration.
+
+What is her SpO₂ (or if no oximeter: can she speak full sentences without pausing for breath) and does she have chest pain or confusion right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+UCG 7.1.1
+
+UCG 1.4
+
+UCG 4.1.4
+
+UCG 7.1.3
+
+UCG 1.1.2
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+Rebecca now says breathing is worse while sitting still and there may be a cough with frothy sputum. No chest pain is reported yet. What should I do now, and what exact escalation threshold applies?
+
+smart_toy
+
+⚠️ URGENT: Worsening breathlessness at rest with possible frothy sputum in a known HFrEF patient is concerning for acute pulmonary oedema, which requires same-day emergency referral/admission (HC4/Hospital level) rather than continued home management [UCG 4.1.4] [HF Algorithm].
+
+Single next step (right now on the call): determine if she meets hypoxaemia/danger-sign criteria that make this an immediate emergency transfer. Ask her:
+
+“Do you have an oxygen (SpO₂) reading right now? If yes, what is the number? Also—are you able to speak in full sentences, or are you too breathless to talk normally? Any confusion/extreme weakness?” [UCG 1.4]
+
+Exact escalation threshold (remote triage):
+
+SpO₂ < 90% = hypoxaemia → emergency (urgent transfer for oxygen therapy and hospital management) [UCG 1.4].
+Danger signs (even without an SpO₂): inability to talk in complete sentences, confusion/sleepiness/agitation, extreme weakness, or features of severe respiratory distress → treat as emergency and refer immediately [UCG 1.4].
+The clinical picture of pulmonary oedema (severe dyspnoea and cough with frothy sputum) itself supports urgent hospital-level management [UCG 4.1.4].
+
+While arranging referral, do not advise any medication dose increase (e.g., extra furosemide) unless the cardiologist confirms first—this change requires cardiologist confirmation before administration. If she is already on oxygen at home or near a facility, oxygen is indicated for documented hypoxaemia, but this is generally delivered at facility level per the guideline [UCG 1.4].
+
+What is her SpO₂ reading, and can she speak full sentences right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 5.1.2
+
+UCG 1.4
+
+UCG 4.1.4
+
+UCG 5.1.1.1
+
+UCG 1.1.2
+
+Was this response helpful?
+
+👍
+
+👎

@@ -1,0 +1,121 @@
+smart_toy
+
+⚠️ URGENT: BP 86/54 with cool peripheries and a rising creatinine in a known/suspected HF patient is concerning for poor perfusion/shock physiology with evolving kidney injury. This needs immediate senior clinician/cardiologist input (by phone if off-site) and urgent referral/HD/ICU-capable care rather than outpatient medication titration [HF Algorithm], [UCG 7.1.1].
+
+Single next step (right now): do a rapid perfusion assessment to confirm instability and guide immediate escalation—specifically check mental status and urine output (including whether she is oliguric) while arranging urgent physician review/referral [UCG 7.1.1].
+
+Any change to her HF medicines (including holding enalapril/carvedilol/spironolactone, changing furosemide dose, or giving an extra dose) requires cardiologist confirmation before administration.
+
+To proceed: what is her current mental status (alert/confused), and what is her urine output over the last ~6 hours (or is there oliguria/anuria)? [UCG 7.1.1]
+
+Sources (click to view):
+
+HF Algorithm
+
+GDMT Tables
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 7.1.1
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Maria is a 57-year-old woman with chronic HFrEF taking enalapril, carvedilol, spironolactone and furosemide. The patient is dizzy, BP 86/54, cool peripheries, and creatinine has risen from baseline. What medication safety issues and escalation steps should I consider before changing HF medicines?
+
+smart_toy
+
+⚠️ URGENT: BP 86/54 with cool peripheries and a rising creatinine in a known/suspected HF patient is concerning for poor perfusion/shock physiology with evolving kidney injury. This needs immediate senior clinician/cardiologist input (by phone if off-site) and urgent referral/HD/ICU-capable care rather than outpatient medication titration [HF Algorithm], [UCG 7.1.1].
+
+Single next step (right now): do a rapid perfusion assessment to confirm instability and guide immediate escalation—specifically check mental status and urine output (including whether she is oliguric) while arranging urgent physician review/referral [UCG 7.1.1].
+
+Any change to her HF medicines (including holding enalapril/carvedilol/spironolactone, changing furosemide dose, or giving an extra dose) requires cardiologist confirmation before administration.
+
+To proceed: what is her current mental status (alert/confused), and what is her urine output over the last ~6 hours (or is there oliguria/anuria)? [UCG 7.1.1]
+
+Sources (click to view):
+
+HF Algorithm
+
+GDMT Tables
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 7.1.1
+
+UCG 1.1.4
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+A colleague suggests increasing carvedilol and enalapril because the patient has HFrEF. Is that safe with this BP and creatinine trend?
+
+smart_toy
+
+With SBP 86 mmHg + dizziness + cool peripheries + rising creatinine, it is not safe to up‑titrate enalapril or carvedilol right now. The GDMT tables require SBP >90 mmHg for ACE‑i and carvedilol titration, and UCG explicitly cautions using ACE inhibitors and beta blockers when SBP <90 mmHg with renal monitoring [GDMT Tables], [UCG 4.1.3]. This presentation is also a red flag for cardiogenic shock/poor perfusion, which the HF Algorithm lists as urgent [HF Algorithm].
+
+Medication safety issues to flag (before any change):
+
+ACE‑i (enalapril): with hypotension and Cr rising, risk of worsening renal function; GDMT tables advise hold if Cr increases >30% from baseline or symptomatic hypotension [GDMT Tables].
+Beta blocker (carvedilol): do not uptitrate in instability; GDMT tables require SBP >90 and HR >55 and advise avoid uptitration if decompensated/volume overloaded [GDMT Tables]. UCG also says use beta blockers with caution if SBP <90 [UCG 4.1.3].
+MRA (spironolactone): needs kidney function and K monitoring; GDMT tables give requirements eGFR >30 and K <5.0, and to hold if K ≥5.5 [GDMT Tables].
+Diuretic (furosemide): in possible AKI/low perfusion, diuretic decisions need careful balance; UCG AKI guidance emphasizes monitoring I/O and referral if worsening/anuria; it allows IV furosemide in oliguria according to response but in a monitored setting [UCG 7.1.1].
+
+Escalation step to take before changing HF medicines: treat this as hemodynamic instability and urgently escalate to senior clinician/physician and remote cardiologist for immediate direction and referral. The HF Algorithm highlights cardiogenic shock as a red flag needing urgent attention [HF Algorithm], and UCG AKI guidance supports referral for worsening kidney function/anuria [UCG 7.1.1].
+And to be explicit: any holding, starting, stopping, or dose increase/decrease of enalapril, carvedilol, spironolactone, or furosemide requires cardiologist confirmation before administration.
+
+Single next step (what I need from you now to guide the safest immediate plan): what is her heart rate and urine output (e.g., ml/hour or “passed urine in last 6 hours / anuria”)? These determine immediate shock severity and AKI urgency and are central to UCG AKI assessment [UCG 7.1.1].
+
+Sources (click to view):
+
+HF Algorithm
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 7.1.1
+
+UCG 1.1.2
+
+UCG 4.1.4
+
+UCG 7.1.2
+
+Was this response helpful?
+
+👍
+
+👎

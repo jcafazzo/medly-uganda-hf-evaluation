@@ -1,0 +1,120 @@
+smart_toy
+
+Given her dyspnoea at rest while seated plus possible frothy blood‑stained sputum, this is concerning for acute pulmonary oedema, which the UCG treats as an emergency requiring in‑person care (oxygen + parenteral diuretic capability) rather than home dose-adjustment by phone [UCG 4.1.4].
+
+So do not advise an extra furosemide dose on the phone as the primary plan; any extra dose (or any dose change) requires cardiologist confirmation before administration. The priority is urgent referral/transport to HC4/hospital now [UCG 4.1.4].
+
+Single next step on this call: confirm whether she meets the UCG emergency severity threshold for immediate emergency transfer by checking oxygenation/ability to speak. UCG acute management targets oxygen to keep SpO₂ >95% in pulmonary oedema, and pulmonary oedema is also listed as a life‑threatening complication (hypertensive emergency context) [UCG 4.1.4], [UCG 4.1.6.1].
+
+Ask her now:
+
+“Do you have a pulse oximeter—what is your SpO₂ right now?” and
+“Are you able to speak in full sentences while resting, or are you too breathless to talk?”
+
+What SpO₂ (if available) and sentence-speaking status does she report right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Maria is a 56-year-old woman with HFrEF EF 30% and worsening swelling with 2 kg weight gain. Maria asks whether to take extra furosemide now. I am not physically with the patient and do not have same-day creatinine, potassium, or blood pressure. Should I tell the patient to take an extra dose?
+
+smart_toy
+
+Given her dyspnoea at rest while seated plus possible frothy blood‑stained sputum, this is concerning for acute pulmonary oedema, which the UCG treats as an emergency requiring in‑person care (oxygen + parenteral diuretic capability) rather than home dose-adjustment by phone [UCG 4.1.4].
+
+So do not advise an extra furosemide dose on the phone as the primary plan; any extra dose (or any dose change) requires cardiologist confirmation before administration. The priority is urgent referral/transport to HC4/hospital now [UCG 4.1.4].
+
+Single next step on this call: confirm whether she meets the UCG emergency severity threshold for immediate emergency transfer by checking oxygenation/ability to speak. UCG acute management targets oxygen to keep SpO₂ >95% in pulmonary oedema, and pulmonary oedema is also listed as a life‑threatening complication (hypertensive emergency context) [UCG 4.1.4], [UCG 4.1.6.1].
+
+Ask her now:
+
+“Do you have a pulse oximeter—what is your SpO₂ right now?” and
+“Are you able to speak in full sentences while resting, or are you too breathless to talk?”
+
+What SpO₂ (if available) and sentence-speaking status does she report right now?
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 4.1.3
+
+UCG 4.1.4
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+More information: Maria has no chest pain, is urinating less than usual, feels dizzy on standing, and has no BP machine at home. Does this change your advice?
+
+smart_toy
+
+Yes—reduced urine output plus dizziness on standing makes an unsupervised extra diuretic dose higher risk, and she also has symptoms concerning for pulmonary oedema (dyspnoea at rest + frothy sputum), which UCG manages as an acute emergency at facility level (prop up, high‑concentration oxygen, parenteral furosemide, etc.) [UCG 4.1.4]. So the advice stays: do not tell her to take an extra furosemide dose at home by phone; prioritize urgent transfer now. And any extra dose/dose change requires cardiologist confirmation before administration. (Even if a cardiologist authorizes a dose, the red-flag picture still means she should be seen urgently.) [HF Algorithm], [UCG 4.1.4]
+
+Escalation threshold that applies right now: her reported cough with frothy blood‑stained sputum and severe dyspnoea/rapid breathing are listed clinical features of pulmonary oedema—this is the trigger for emergency escalation to HC4/Hospital for oxygen and IM/IV diuretics per UCG [UCG 4.1.4]. If she has a pulse oximeter and SpO₂ is low, that further supports emergency care; UCG’s acute target in pulmonary oedema is oxygen to achieve SpO₂ >95% [UCG 4.1.4].
+
+Single next step on the call: treat this as emergency referral and decide how immediate the transport must be based on her current ability to maintain oxygenation and talk.
+
+Question (one key triage question):
+Is she able to speak in full sentences at rest, or is she too breathless to talk normally? (And does she have any home SpO₂ reading right now?) [UCG 4.1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.1.4
+
+UCG 4.1.3
+
+UCG 1.1.2
+
+UCG 4.1.6
+
+Was this response helpful?
+
+👍
+
+👎

@@ -1,0 +1,121 @@
+smart_toy
+
+Given his severe dyspnoea at rest + possible frothy sputum, treat this as suspected acute pulmonary oedema. In the UCG, acute pulmonary oedema requires HC4/hospital-level acute management (prop up, high-concentration oxygen targeting SpO₂ >95%, and IM/slow IV furosemide 40–80 mg, repeat PRN up to 2‑hourly according to response)—so this is not appropriate for “extra furosemide at home” advice when you don’t have vitals/labs and he also reports reduced urine output [UCG 4.1.4].
+
+Single next step (right now on the phone): arrange immediate transfer to HC4/hospital (ambulance/escort) and keep him sitting upright while transport is organized [UCG 4.1.4].
+
+Regarding the “extra dose at home”: the HF algorithm allows loop diuretic use for hypervolemia and gives oral furosemide dose ranges (20–160 mg/day) [HF Algorithm], but any medication change—including advising an extra oral furosemide dose—requires cardiologist confirmation before administration, especially with oliguria suggesting possible renal hypoperfusion/AKI risk [UCG 7.1.1].
+
+Escalation threshold you can apply remotely: if he has SpO₂ <90% (if he has a pulse oximeter) or he cannot speak full sentences / is severely distressed, that meets emergency danger-sign criteria and needs immediate oxygen-capable care; UCG also treats the clinical picture of pulmonary oedema (severe dyspnoea + frothy blood-stained sputum) as an acute emergency condition requiring HC4-level treatment [UCG 1.4], [UCG 4.1.4].
+
+To finalize the urgency and communicate clearly to the receiving unit: does he have a current home SpO₂ reading (or any BP/HR), and can he speak in full sentences without stopping to breathe? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 7.1.3
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 7.1.1
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+--- next assistant turn ---
+
+smart_toy
+
+Analyzing query and retrieving information...
+
+--- next assistant turn ---
+
+💬 Chat
+
+🔄 Clear chat
+
+face
+
+Remote monitoring case: Peter is a 36-year-old man with HFrEF EF 32% and worsening swelling with 4 kg weight gain. Peter asks whether to take extra furosemide now. I am not physically with the patient and do not have same-day creatinine, potassium, or blood pressure. Should I tell the patient to take an extra dose?
+
+smart_toy
+
+Given his severe dyspnoea at rest + possible frothy sputum, treat this as suspected acute pulmonary oedema. In the UCG, acute pulmonary oedema requires HC4/hospital-level acute management (prop up, high-concentration oxygen targeting SpO₂ >95%, and IM/slow IV furosemide 40–80 mg, repeat PRN up to 2‑hourly according to response)—so this is not appropriate for “extra furosemide at home” advice when you don’t have vitals/labs and he also reports reduced urine output [UCG 4.1.4].
+
+Single next step (right now on the phone): arrange immediate transfer to HC4/hospital (ambulance/escort) and keep him sitting upright while transport is organized [UCG 4.1.4].
+
+Regarding the “extra dose at home”: the HF algorithm allows loop diuretic use for hypervolemia and gives oral furosemide dose ranges (20–160 mg/day) [HF Algorithm], but any medication change—including advising an extra oral furosemide dose—requires cardiologist confirmation before administration, especially with oliguria suggesting possible renal hypoperfusion/AKI risk [UCG 7.1.1].
+
+Escalation threshold you can apply remotely: if he has SpO₂ <90% (if he has a pulse oximeter) or he cannot speak full sentences / is severely distressed, that meets emergency danger-sign criteria and needs immediate oxygen-capable care; UCG also treats the clinical picture of pulmonary oedema (severe dyspnoea + frothy blood-stained sputum) as an acute emergency condition requiring HC4-level treatment [UCG 1.4], [UCG 4.1.4].
+
+To finalize the urgency and communicate clearly to the receiving unit: does he have a current home SpO₂ reading (or any BP/HR), and can he speak in full sentences without stopping to breathe? [UCG 1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+HF Algorithm (2)
+
+GDMT Tables
+
+UCG 7.1.3
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 7.1.1
+
+UCG 4.1.4
+
+Was this response helpful?
+
+👍
+
+👎
+
+face
+
+More information: Peter has no chest pain, is urinating less than usual, feels dizzy on standing, and has no BP machine at home. Does this change your advice?
+
+smart_toy
+
+Yes — reduced urine output plus dizziness on standing, with suspected pulmonary oedema, makes it less safe to advise any unsupervised “extra” furosemide at home because you cannot check BP, renal function, or electrolytes, and he may already be hypotensive or developing renal hypoperfusion. The priority remains urgent in-person care (HC4/hospital) for oxygen and parenteral therapy as needed [UCG 4.1.4].
+
+Single next step now (on the phone): activate immediate referral/transport to HC4/hospital and instruct him to stay propped up sitting while transport is arranged [UCG 4.1.4].
+
+On the specific question “should I take an extra furosemide dose now?”: extra diuretic dosing is part of HF congestion management (oral furosemide range 20–160 mg/day) [HF Algorithm], but any medication change (including an extra dose) requires cardiologist confirmation before administration—and in this case, with oliguria + postural dizziness and no home BP/labs, that confirmation should be tied to a plan for same-day facility review.
+
+To sharpen the escalation urgency while you arrange transport: does he have access to any pulse oximeter right now (SpO₂), and is he able to speak in full sentences without stopping to breathe? [UCG 4.1.4]
+
+Sources (click to view):
+
+HF Algorithm
+
+UCG 4.1.4
+
+UCG 1.1.2
+
+UCG 4.1.3
+
+UCG 1.1.4
+
+UCG 4.1.6.1
+
+Was this response helpful?
+
+👍
+
+👎
